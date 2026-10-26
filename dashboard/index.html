@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICE LEVEL DATASET — Danube gauge charts, 1835–1893</title>
+  <meta name="description" content="A validity-aware browser for 240 monthly historical Danube gauge charts.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview" data-nav="overview" aria-label="ICE LEVEL DATASET home">
+      <span class="brand-mark">IL</span>
+      <span class="brand-text">
+        <strong>ICE LEVEL DATASET</strong>
+        <small>Danube gauge charts · 1835–1893</small>
+      </span>
+    </a>
+    <nav class="mainnav" aria-label="Main navigation">
+      <button class="navlink is-active" data-nav="overview">Overview</button>
+      <button class="navlink" data-nav="patterns">Long-run patterns</button>
+      <button class="navlink" data-nav="query">Query</button>
+      <button class="navlink" data-nav="validity">Validity</button>
+      <button class="navlink" data-nav="about">About</button>
+    </nav>
+    <div class="topbar-meta">
+      <span class="status-pill"><span class="status-dot"></span> Static archive browser</span>
+      <button class="button button-quiet" id="export-reviews-top" type="button">Export reviews</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="view is-active" id="view-overview" data-view="overview">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Historical hydrology · image corpus</p>
+          <h1>Two hundred and forty months of the Danube, linked into one run.</h1>
+          <p class="lede">Monthly gauge charts from Ulm and Neu-Ulm, 1835–1893. Browse the long-run pattern, query the record, and separate what the images can prove from what they cannot.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-nav="patterns" type="button">Open long-run pattern</button>
+            <button class="button" data-nav="query" type="button">Query the catalogue</button>
+            <button class="button button-quiet" data-nav="validity" type="button">Read the validity report</button>
+          </div>
+        </div>
+        <div class="hero-note">
+          <p class="note-label">Critical distinction</p>
+          <p><strong>This is an image corpus, not a numeric time series.</strong></p>
+          <p>The curves are authentic, but the tiles carry no units, gauge datum, station coordinates, or extracted values. Use them to study patterns and chart-understanding methods; do not report centimetres from a tile.</p>
+        </div>
+      </div>
+
+      <section class="stats-grid" id="stats-grid" aria-label="Dataset statistics"></section>
+
+      <div class="split">
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Coverage</p>
+              <h2>Year × month index</h2>
+            </div>
+            <div class="legend">
+              <span><i class="swatch swatch-documented"></i> Metadata linked</span>
+              <span><i class="swatch swatch-image"></i> Image only</span>
+              <span><i class="swatch swatch-flagged"></i> Review flag</span>
+              <span><i class="swatch swatch-missing"></i> Missing year</span>
+            </div>
+          </div>
+          <div class="coverage-wrap" id="coverage-matrix"></div>
+          <div class="missing-strip" id="missing-strip"></div>
+        </section>
+
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Continuity</p>
+              <h2>Station epochs</h2>
+            </div>
+          </div>
+          <div class="station-rail" id="station-rail"></div>
+          <div class="callout callout-warn">
+            <strong>The 1845 break is real.</strong>
+            <p>Ulm becomes Neu-Ulm in July 1845. The dataset does not establish whether the gauge zero moved. Treat the two epochs as separate series until archival research says otherwise.</p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="split">
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Pattern preview</p>
+              <h2>The shape of twenty years</h2>
+            </div>
+            <button class="button button-quiet" data-nav="patterns" type="button">Full pattern view</button>
+          </div>
+          <div class="preview-frame">
+            <img id="overview-preview" src="patterns/overview.jpg" alt="Contact sheet of 20 years of monthly gauge charts">
+          </div>
+          <p class="caption">Each panel is one included year, January–December, arranged four across. Gaps between years, the station change, and the pasted 1837 sheet remain visible as breaks in visual consistency.</p>
+        </section>
+
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Status</p>
+              <h2>What is documented</h2>
+            </div>
+          </div>
+          <div id="documentation-bars" class="bars"></div>
+          <div class="callout">
+            <strong>Average completeness</strong>
+            <p id="avg-score-note">—</p>
+          </div>
+        </aside>
+      </div>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Next actions</p>
+            <h2>Three ways into the record</h2>
+          </div>
+        </div>
+        <div class="action-grid">
+          <button class="action-card" data-nav="patterns" type="button">
+            <span class="action-index">01</span>
+            <strong>See the pattern</strong>
+            <span>Link every month into a continuous visual run and inspect the seasonal shape across two decades.</span>
+          </button>
+          <button class="action-card" data-nav="query" type="button">
+            <span class="action-index">02</span>
+            <strong>Query the catalogue</strong>
+            <span>Filter by year, station, metadata, flags, ink signal, and completeness. Export the selection.</span>
+          </button>
+          <button class="action-card" data-nav="validity" type="button">
+            <span class="action-index">03</span>
+            <strong>Test validity</strong>
+            <span>See exactly which scientific uses are supported, which are conditional, and which are not supported yet.</span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-patterns" data-view="patterns">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">Linked images</p>
+          <h1>Long-run pattern</h1>
+          <p class="lede">One strip contains all 240 months in sequence. The matrix below keeps the calendar visible, so gaps and station changes remain legible.</p>
+        </div>
+        <div class="page-actions">
+          <a class="button" href="patterns/long_run.jpg" target="_blank" rel="noopener">Open long-run image</a>
+          <a class="button button-quiet" href="patterns/overview.jpg" target="_blank" rel="noopener">Open overview image</a>
+        </div>
+      </div>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">1835 → 1893</p>
+            <h2>Continuous sequence</h2>
+          </div>
+          <p class="microcopy">Scroll horizontally. Each month is one chart column; year boundaries are marked.</p>
+        </div>
+        <div class="long-run-scroll">
+          <img class="long-run-image" src="patterns/long_run.jpg" alt="Long-run strip of all 240 monthly gauge charts">
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Calendar matrix</p>
+            <h2>Year × month</h2>
+          </div>
+          <div class="toolbar">
+            <label class="check"><input type="checkbox" id="pattern-flag-filter"> Only flagged tiles</label>
+            <label class="check"><input type="checkbox" id="pattern-meta-filter"> Only metadata-linked</label>
+            <button class="button button-quiet" id="pattern-reset" type="button">Reset</button>
+          </div>
+        </div>
+        <div class="pattern-matrix-wrap">
+          <div class="pattern-matrix" id="pattern-matrix"></div>
+        </div>
+        <p class="caption">Colour of the cell border: green = metadata linked; amber = image only; red = detection flag. Click any month to open its record.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Annual strips</p>
+            <h2>One year, twelve months</h2>
+          </div>
+          <div class="toolbar">
+            <button class="button button-quiet" id="year-prev" type="button">Previous</button>
+            <select id="year-select" aria-label="Select year"></select>
+            <button class="button button-quiet" id="year-next" type="button">Next</button>
+          </div>
+        </div>
+        <div class="year-strip-wrap">
+          <img id="year-strip" src="patterns/year_1835.jpg" alt="Annual strip for 1835">
+        </div>
+        <div class="year-strip-meta" id="year-strip-meta"></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-query" data-view="query">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">Catalogue query</p>
+          <h1>Query the record</h1>
+          <p class="lede">Ask the archive a question. Every filter is explicit, every result is traceable, and the export contains the same fields you see here.</p>
+        </div>
+        <div class="page-actions">
+          <button class="button" id="export-csv" type="button">Export CSV</button>
+          <button class="button button-quiet" id="export-json" type="button">Export JSON</button>
+        </div>
+      </div>
+
+      <section class="panel filter-panel">
+        <div class="filter-grid">
+          <label class="field">
+            <span>Year from</span>
+            <select id="f-year-from"></select>
+          </label>
+          <label class="field">
+            <span>Year to</span>
+            <select id="f-year-to"></select>
+          </label>
+          <label class="field">
+            <span>Month</span>
+            <select id="f-month"></select>
+          </label>
+          <label class="field">
+            <span>Station</span>
+            <select id="f-station"></select>
+          </label>
+          <label class="field">
+            <span>Metadata</span>
+            <select id="f-metadata">
+              <option value="">Any</option>
+              <option value="yes">Linked</option>
+              <option value="no">Image only</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Technical flag</span>
+            <select id="f-flag">
+              <option value="">Any</option>
+              <option value="any">Any flag</option>
+              <option value="duplicate">Duplicate file</option>
+              <option value="faint">Faint blue ink</option>
+              <option value="red">Red ink present</option>
+              <option value="pasted">Pasted sheet</option>
+              <option value="detection">Detection flags</option>
+              <option value="dimensions">Unexpected dimensions</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Review status</span>
+            <select id="f-review">
+              <option value="">Any</option>
+              <option value="unreviewed">Unreviewed</option>
+              <option value="looks-good">Looks good</option>
+              <option value="needs-review">Needs review</option>
+              <option value="reject">Reject</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Search</span>
+            <input id="f-search" type="search" placeholder="year, station, form, scan…">
+          </label>
+          <label class="field field-range">
+            <span>Minimum completeness <output id="f-score-value">0</output></span>
+            <input id="f-score" type="range" min="0" max="100" value="0" step="5">
+          </label>
+          <label class="field">
+            <span>Sort</span>
+            <select id="f-sort">
+              <option value="year-asc">Year ascending</option>
+              <option value="year-desc">Year descending</option>
+              <option value="score-asc">Completeness ascending</option>
+              <option value="score-desc">Completeness descending</option>
+              <option value="blue-desc">Blue ink descending</option>
+              <option value="red-desc">Red ink descending</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-actions">
+          <button class="button button-primary" id="apply-query" type="button">Run query</button>
+          <button class="button button-quiet" id="reset-query" type="button">Reset</button>
+          <button class="button button-quiet" id="copy-query" type="button">Copy query link</button>
+          <span class="query-count" id="query-count">240 records</span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Result set</p>
+            <h2>Matching months</h2>
+          </div>
+          <div class="result-summary" id="result-summary"></div>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Month</th>
+                <th>Station</th>
+                <th>Form</th>
+                <th>Metadata</th>
+                <th>Source</th>
+                <th>Completeness</th>
+                <th>Flags</th>
+                <th>Review</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="query-body"></tbody>
+          </table>
+        </div>
+        <p class="caption" id="query-empty" hidden>No records match this query.</p>
+      </section>
+
+      <section class="panel" id="validity-check-panel" hidden>
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Selection audit</p>
+            <h2>What this selection supports</h2>
+          </div>
+          <button class="button button-quiet" id="close-check" type="button">Close</button>
+        </div>
+        <div id="validity-check-content"></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-validity" data-view="validity">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">Critical assessment</p>
+          <h1>Validity, not vibes</h1>
+          <p class="lede">A dataset can be authentic and still be unusable for a particular question. This page separates provenance, documentation, and scientific validity.</p>
+        </div>
+        <div class="page-actions">
+          <button class="button" id="download-report" type="button">Download validity report</button>
+        </div>
+      </div>
+
+      <section class="verdict-grid">
+        <article class="verdict verdict-good">
+          <p class="verdict-label">Supported</p>
+          <h3>Browsing and pattern inspection</h3>
+          <p>The images are faithful derivatives of archival scans. Visual comparison, month-to-month reading, and review workflows are supported.</p>
+        </article>
+        <article class="verdict verdict-mid">
+          <p class="verdict-label">Conditional</p>
+          <h3>Curve extraction and benchmarking</h3>
+          <p>Usable as a chart-understanding corpus after a hand-traced gold set and per-era calibration. Faded ink and the pasted 1837 sheet are known traps.</p>
+        </article>
+        <article class="verdict verdict-bad">
+          <p class="verdict-label">Not supported</p>
+          <h3>Absolute water levels and trends</h3>
+          <p>No units, datum, station geometry, or extracted values. The 1845 station break and 39 missing years also preclude naive long-term hydrology.</p>
+        </article>
+      </section>
+
+      <div class="split">
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Use-case matrix</p>
+              <h2>What can this dataset answer?</h2>
+            </div>
+          </div>
+          <div class="use-table" id="use-table"></div>
+        </section>
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Record completeness</p>
+              <h2>Documentation coverage</h2>
+            </div>
+          </div>
+          <div class="bars" id="validity-bars"></div>
+          <p class="caption">Completeness measures documentation, not scientific truth. A 100/100 tile could still contain a wrong curve.</p>
+        </aside>
+      </div>
+
+      <div class="split">
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Integrity checks</p>
+              <h2>Known issues</h2>
+            </div>
+          </div>
+          <ul class="issue-list" id="issue-list"></ul>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Human review</p>
+              <h2>Your review progress</h2>
+            </div>
+          </div>
+          <div id="review-progress"></div>
+          <div class="review-actions">
+            <button class="button" id="export-reviews" type="button">Export reviews JSON</button>
+            <button class="button button-danger" id="clear-reviews" type="button">Clear local reviews</button>
+          </div>
+          <p class="caption">Reviews are stored in this browser only, under <code>ice-reviews-v1</code>. Export before changing browser or machine.</p>
+        </section>
+      </div>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Review queue</p>
+            <h2>Highest-risk records</h2>
+          </div>
+          <button class="button button-quiet" id="open-risky-query" type="button">Open full review queue</button>
+        </div>
+        <div class="risk-grid" id="risk-grid"></div>
+      </section>
+
+      <section class="panel panel-statement">
+        <p class="eyebrow">Validity statement</p>
+        <p id="validity-statement"></p>
+        <div class="statement-actions">
+          <a class="button button-quiet" href="../DATASET_DOCUMENTATION.md" target="_blank" rel="noopener">Read the full dataset documentation</a>
+          <a class="button button-quiet" href="manifest.csv" target="_blank" rel="noopener">Open manifest CSV</a>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-about" data-view="about">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">Provenance and method</p>
+          <h1>About this interface</h1>
+          <p class="lede">A static, local-first browser built on top of the image corpus. No server, no database, no hidden model. The catalogue is the manifest.</p>
+        </div>
+      </div>
+
+      <div class="split">
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Source</p>
+              <h2>Archival chain</h2>
+            </div>
+          </div>
+          <div class="prose">
+            <p><strong>Holding institution:</strong> Bayerisches Hauptstaatsarchiv. The TIFF copyright tag names the archive as rights holder.</p>
+            <p><strong>Series:</strong> <code>Bayer. Landesamt für Wasserwirtschaft 21</code>. The source plates are annual tables of water-level observations at Ulm and Neu-Ulm.</p>
+            <p><strong>Scanning:</strong> i2S SupraScan Quartz A1, 300 dpi, 24-bit RGB, LZW TIFF, scanned 5 March 2025.</p>
+            <p><strong>Tiling:</strong> month columns detected and deskewed from the annual sheets, cropped and normalised to 744 × 3000 JPEG. The first ten years carry metadata; later years are image-only in this folder.</p>
+            <p><strong>Rights:</strong> no licence is included. Do not redistribute the images until permission is confirmed with the archive.</p>
+          </div>
+        </section>
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Rebuild</p>
+              <h2>Run it locally</h2>
+            </div>
+          </div>
+          <pre class="code-block"><code>cd "ICE LEVEL DATASET"
+python3 dashboard/build_dashboard.py
+python3 -m http.server 8000
+# open http://localhost:8000/dashboard/</code></pre>
+          <p class="caption">The dashboard is static. Opening <code>index.html</code> directly also works in most browsers; a local server is safer for file links.</p>
+        </aside>
+      </div>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Data contract</p>
+            <h2>Fields you can query</h2>
+          </div>
+        </div>
+        <div class="schema-grid">
+          <div><code>year</code><span>Calendar year of the month column.</span></div>
+          <div><code>month</code><span>Month number, 1–12.</span></div>
+          <div><code>station</code><span>Ulm through June 1845; Neu-Ulm from July 1845.</span></div>
+          <div><code>station_source</code><span><code>metadata</code> or <code>inferred</code>.</span></div>
+          <div><code>form</code><span>Chart/paper era. <code>unclassified</code> after 1863.</span></div>
+          <div><code>source_scan</code><span>Archive scan ID, linked only for 1835–1863.</span></div>
+          <div><code>doc_score</code><span>0–100 documentation completeness, not scientific accuracy.</span></div>
+          <div><code>blue_pct</code><span>Conservative blue-ink pixel share; low values flag faded ink.</span></div>
+          <div><code>red_px</code><span>Red-ink pixel count; substantial only in August 1835.</span></div>
+          <div><code>grid_x</code>, <code>grid_y</code><span>Detected ruling spacing in pixels.</span></div>
+          <div><code>doc_gaps</code><span>Missing metadata, unlinked source, inferred station, unclassified form.</span></div>
+          <div><code>tech_flags</code><span>Duplicate, detection, faint ink, red ink, dimensions, pasted sheet.</span></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Limits</p>
+            <h2>Three sentences to remember</h2>
+          </div>
+        </div>
+        <div class="three-rules">
+          <p><strong>01.</strong> A tile is a picture of a chart, not a measurement. The ink has shape, but no units.</p>
+          <p><strong>02.</strong> The station changes in 1845 and the record has 39 missing years. Continuity is an assumption, not a fact.</p>
+          <p><strong>03.</strong> The red series in August 1835 is unexplained. Do not call it ice without archival evidence.</p>
+        </div>
+      </section>
+
+      <footer class="about-footer">
+        <p>Built for critical use. Full critical documentation: <a href="../DATASET_DOCUMENTATION.md">DATASET_DOCUMENTATION.md</a>.</p>
+        <p>Manifest: <a href="manifest.csv">CSV</a> · <a href="manifest.json">JSON</a> · <a href="patterns/long_run.jpg">long-run image</a>.</p>
+      </footer>
+    </section>
+  </main>
+
+  <div class="modal" id="detail-modal" hidden>
+    <div class="modal-overlay" data-close-modal="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Close record">×</button>
+      <div class="modal-grid">
+        <div class="modal-image-panel">
+          <div class="modal-image-toolbar">
+            <span class="microcopy" id="modal-image-caption">Month tile</span>
+            <div>
+              <button class="button button-quiet" id="modal-rotate" type="button">Rotate</button>
+              <a class="button button-quiet" id="modal-original" href="#" target="_blank" rel="noopener">Original</a>
+            </div>
+          </div>
+          <div class="modal-image-wrap">
+            <img id="modal-image" src="" alt="">
+          </div>
+        </div>
+        <div class="modal-info-panel">
+          <p class="eyebrow" id="modal-kicker">Record</p>
+          <h2 id="modal-title">—</h2>
+          <div class="badge-row" id="modal-badges"></div>
+          <div class="score-block">
+            <div class="score-line">
+              <span>Documentation completeness</span>
+              <strong id="modal-score">—</strong>
+            </div>
+            <div class="score-track"><span id="modal-score-bar"></span></div>
+          </div>
+          <div class="checklist" id="modal-checklist"></div>
+          <dl class="meta-list" id="modal-meta"></dl>
+          <div class="flag-block" id="modal-flags"></div>
+          <div class="review-form">
+            <div class="review-form-head">
+              <h3>Review this record</h3>
+              <span class="review-state" id="modal-review-state">Unreviewed</span>
+            </div>
+            <label class="field">
+              <span>Status</span>
+              <select id="review-status">
+                <option value="unreviewed">Unreviewed</option>
+                <option value="looks-good">Looks good</option>
+                <option value="needs-review">Needs review</option>
+                <option value="reject">Reject</option>
+              </select>
+            </label>
+            <div class="check-grid">
+              <label class="check"><input type="checkbox" id="rv-curve"> Curve complete</label>
+              <label class="check"><input type="checkbox" id="rv-gap"> Gap suspected</label>
+              <label class="check"><input type="checkbox" id="rv-faded"> Faded ink</label>
+              <label class="check"><input type="checkbox" id="rv-red"> Red ink</label>
+              <label class="check"><input type="checkbox" id="rv-crop"> Crop issue</label>
+              <label class="check"><input type="checkbox" id="rv-station"> Station issue</label>
+            </div>
+            <label class="field">
+              <span>Note</span>
+              <textarea id="rv-note" rows="3" placeholder="What did you verify? What remains uncertain?"></textarea>
+            </label>
+            <div class="review-actions">
+              <button class="button button-primary" id="save-review" type="button">Save review</button>
+              <span class="microcopy" id="review-saved-note"></span>
+            </div>
+          </div>
+          <div class="modal-nav">
+            <button class="button button-quiet" id="modal-prev" type="button">← Previous</button>
+            <button class="button button-quiet" id="modal-next" type="button">Next →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

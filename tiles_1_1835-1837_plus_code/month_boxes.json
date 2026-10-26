@@ -1,0 +1,1862 @@
+[
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 1,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   481,
+   812,
+   1220,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 2,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   1220,
+   812,
+   1962,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 3,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   1962,
+   812,
+   2705,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 4,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   2788,
+   812,
+   3537,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 5,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   3537,
+   812,
+   4286,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 6,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.2,
+  "box_px_fullres_after_deskew": [
+   4286,
+   812,
+   5035,
+   3828
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 7,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   5085,
+   815,
+   5827,
+   3832
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 8,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   5827,
+   815,
+   6573,
+   3832
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 9,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   6573,
+   815,
+   7319,
+   3832
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 10,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   7405,
+   812,
+   8147,
+   3838
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 11,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   8147,
+   812,
+   8890,
+   3838
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210012",
+  "year": 1835,
+  "month": 12,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.1,
+  "box_px_fullres_after_deskew": [
+   8890,
+   812,
+   9632,
+   3838
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 1,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   509,
+   813,
+   1249,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 2,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   1249,
+   813,
+   1986,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 3,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   1986,
+   813,
+   2722,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 4,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   2818,
+   809,
+   3562,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 5,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   3562,
+   809,
+   4305,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 6,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.15,
+  "box_px_fullres_after_deskew": [
+   4305,
+   809,
+   5049,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 7,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   5085,
+   803,
+   5828,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 8,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   5828,
+   803,
+   6575,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 9,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   6575,
+   803,
+   7322,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 10,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   7328,
+   806,
+   8072,
+   3813
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 11,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   8072,
+   806,
+   8815,
+   3813
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210013",
+  "year": 1836,
+  "month": 12,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.15,
+  "box_px_fullres_after_deskew": [
+   8815,
+   806,
+   9558,
+   3813
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 1,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   512,
+   723,
+   1252,
+   3732
+  ],
+  "flags": [
+   "top deviates -25px from spread median",
+   "base deviates +16px from spread median"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 2,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   1252,
+   723,
+   1995,
+   3732
+  ],
+  "flags": [
+   "top deviates -25px from spread median",
+   "base deviates +16px from spread median"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 3,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   1995,
+   723,
+   2738,
+   3732
+  ],
+  "flags": [
+   "top deviates -25px from spread median",
+   "base deviates +16px from spread median"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 4,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   2828,
+   900,
+   3571,
+   3672
+  ],
+  "flags": [
+   "top deviates +25px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 5,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   3571,
+   900,
+   4314,
+   3672
+  ],
+  "flags": [
+   "top deviates +25px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 6,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   4314,
+   900,
+   5057,
+   3672
+  ],
+  "flags": [
+   "top deviates +25px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 7,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5077,
+   904,
+   5820,
+   3678
+  ],
+  "flags": [
+   "top deviates +24px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 8,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5820,
+   904,
+   6563,
+   3678
+  ],
+  "flags": [
+   "top deviates +24px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 9,
+  "gauge": "Ulm",
+  "form": "pasted 1837 sheet",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   6563,
+   904,
+   7310,
+   3678
+  ],
+  "flags": [
+   "top deviates +24px from spread median",
+   "base deviates -16px from spread median",
+   "hand-checked box (pasted sheet)"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 10,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   7397,
+   726,
+   8140,
+   3745
+  ],
+  "flags": [
+   "top deviates -24px from spread median",
+   "base deviates +20px from spread median"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 11,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8140,
+   726,
+   8883,
+   3745
+  ],
+  "flags": [
+   "top deviates -24px from spread median",
+   "base deviates +20px from spread median"
+  ]
+ },
+ {
+  "scan": "210015",
+  "year": 1837,
+  "month": 12,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8883,
+   726,
+   9626,
+   3745
+  ],
+  "flags": [
+   "top deviates -24px from spread median",
+   "base deviates +20px from spread median"
+  ]
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 1,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   538,
+   819,
+   1278,
+   3826
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 2,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   1278,
+   819,
+   2017,
+   3826
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 3,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   2017,
+   819,
+   2756,
+   3826
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 4,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   2846,
+   826,
+   3585,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 5,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   3585,
+   826,
+   4321,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 6,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   4321,
+   826,
+   5057,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 7,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5097,
+   809,
+   5833,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 8,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5833,
+   809,
+   6565,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 9,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   6565,
+   809,
+   7297,
+   3823
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 10,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   7388,
+   813,
+   8127,
+   3803
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 11,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8127,
+   813,
+   8866,
+   3803
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210018",
+  "year": 1839,
+  "month": 12,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8866,
+   813,
+   9605,
+   3803
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 1,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   531,
+   763,
+   1267,
+   3758
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 2,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   1267,
+   763,
+   2003,
+   3758
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 3,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   2003,
+   763,
+   2740,
+   3758
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 4,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   2829,
+   756,
+   3569,
+   3761
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 5,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   3569,
+   756,
+   4305,
+   3761
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 6,
+  "gauge": "Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   4305,
+   756,
+   5042,
+   3761
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   5092,
+   753,
+   5821,
+   3752
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   5821,
+   753,
+   6551,
+   3752
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   6551,
+   753,
+   7281,
+   3752
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   7380,
+   750,
+   8120,
+   3755
+  ],
+  "flags": [
+   "base deviates -114px from spread median",
+   "repaired base 1018->1132"
+  ]
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   8120,
+   750,
+   8860,
+   3755
+  ],
+  "flags": [
+   "base deviates -114px from spread median",
+   "repaired base 1018->1132"
+  ]
+ },
+ {
+  "scan": "210024",
+  "year": 1845,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.65,
+  "box_px_fullres_after_deskew": [
+   8860,
+   750,
+   9599,
+   3755
+  ],
+  "flags": [
+   "base deviates -114px from spread median",
+   "repaired base 1018->1132"
+  ]
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 1,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   578,
+   818,
+   1318,
+   3827
+  ],
+  "flags": [
+   "base deviates -38px from spread median",
+   "repaired base 1098->1132"
+  ]
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 2,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   1318,
+   818,
+   2055,
+   3827
+  ],
+  "flags": [
+   "base deviates -38px from spread median",
+   "repaired base 1098->1132"
+  ]
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 3,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   2055,
+   818,
+   2792,
+   3827
+  ],
+  "flags": [
+   "base deviates -38px from spread median",
+   "repaired base 1098->1132"
+  ]
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 4,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   2887,
+   818,
+   3630,
+   3830
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 5,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   3630,
+   818,
+   4371,
+   3830
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 6,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.4,
+  "box_px_fullres_after_deskew": [
+   4371,
+   818,
+   5111,
+   3830
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5155,
+   838,
+   5889,
+   3847
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5889,
+   838,
+   6622,
+   3847
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   6622,
+   838,
+   7356,
+   3847
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   7450,
+   842,
+   8191,
+   3850
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8191,
+   842,
+   8931,
+   3850
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210027",
+  "year": 1848,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8931,
+   842,
+   9671,
+   3850
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 1,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   624,
+   850,
+   1364,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 2,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   1364,
+   850,
+   2099,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 3,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   2099,
+   850,
+   2835,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 4,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   2919,
+   827,
+   3665,
+   3858
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 5,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   3665,
+   827,
+   4414,
+   3858
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 6,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.35,
+  "box_px_fullres_after_deskew": [
+   4414,
+   827,
+   5164,
+   3858
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5170,
+   840,
+   5906,
+   3861
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   5906,
+   840,
+   6642,
+   3861
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   6642,
+   840,
+   7378,
+   3861
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   7476,
+   837,
+   8222,
+   3868
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8222,
+   837,
+   8967,
+   3868
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210028",
+  "year": 1849,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   8967,
+   837,
+   9713,
+   3868
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 1,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   561,
+   826,
+   1303,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 2,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   1303,
+   826,
+   2041,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 3,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   2041,
+   826,
+   2780,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 4,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   2874,
+   839,
+   3612,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 5,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   3612,
+   839,
+   4351,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 6,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": 0.0,
+  "box_px_fullres_after_deskew": [
+   4351,
+   839,
+   5090,
+   3851
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   5090,
+   812,
+   5825,
+   3834
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   5825,
+   812,
+   6560,
+   3834
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   6560,
+   812,
+   7295,
+   3834
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   7396,
+   826,
+   8138,
+   3831
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   8138,
+   826,
+   8880,
+   3831
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210029",
+  "year": 1850,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1830s-50s form",
+  "deskew_deg": -0.2,
+  "box_px_fullres_after_deskew": [
+   8880,
+   826,
+   9622,
+   3831
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 1,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   591,
+   816,
+   1335,
+   3790
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 2,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   1335,
+   816,
+   2082,
+   3790
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 3,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   2082,
+   816,
+   2829,
+   3790
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 4,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   2875,
+   783,
+   3612,
+   3783
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 5,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   3612,
+   783,
+   4349,
+   3783
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 6,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 0.65,
+  "box_px_fullres_after_deskew": [
+   4349,
+   783,
+   5085,
+   3783
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   5095,
+   803,
+   5809,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   5809,
+   803,
+   6523,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   6523,
+   803,
+   7236,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   7355,
+   800,
+   8089,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   8089,
+   800,
+   8819,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210042",
+  "year": 1862,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   8819,
+   800,
+   9550,
+   3777
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 1,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   564,
+   781,
+   1318,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 2,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   1318,
+   781,
+   2072,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 3,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   2072,
+   781,
+   2827,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 4,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   2870,
+   778,
+   3604,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 5,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   3604,
+   778,
+   4342,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 6,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": 1.05,
+  "box_px_fullres_after_deskew": [
+   4342,
+   778,
+   5079,
+   3751
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 7,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   5089,
+   748,
+   5840,
+   3744
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 8,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   5840,
+   748,
+   6595,
+   3744
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 9,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   6595,
+   748,
+   7349,
+   3744
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 10,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   7399,
+   754,
+   8136,
+   3741
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 11,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   8136,
+   754,
+   8871,
+   3741
+  ],
+  "flags": []
+ },
+ {
+  "scan": "210043",
+  "year": 1863,
+  "month": 12,
+  "gauge": "Neu-Ulm",
+  "form": "1862-63 form",
+  "deskew_deg": -0.95,
+  "box_px_fullres_after_deskew": [
+   8871,
+   754,
+   9605,
+   3741
+  ],
+  "flags": []
+ }
+]

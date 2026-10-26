@@ -1,0 +1,241 @@
+id,year,month,month_name,station,station_source,form,source_scan,source_status,metadata,duplicate,doc_score,doc_gaps,tech_flags,blue_pct,red_px,dark_pct,grid_x,grid_y,width,height,bytes,file
+1835-01,1835,1,Jan,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.019,0,8.0,24,24,744,3000,621293,../tiles_1_1835-1837_plus_code/tiles/1835_01_Jan.jpg
+1835-02,1835,2,Feb,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.018,0,7.22,24,24,744,3000,611687,../tiles_1_1835-1837_plus_code/tiles/1835_02_Feb.jpg
+1835-03,1835,3,Mar,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.021,0,6.4,24,24,744,3000,593306,../tiles_1_1835-1837_plus_code/tiles/1835_03_Mar.jpg
+1835-04,1835,4,Apr,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.001,0,9.66,24,24,744,3000,628748,../tiles_1_1835-1837_plus_code/tiles/1835_04_Apr.jpg
+1835-05,1835,5,May,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.003,0,8.76,13,24,744,3000,624657,../tiles_1_1835-1837_plus_code/tiles/1835_05_May.jpg
+1835-06,1835,6,Jun,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.002,0,6.94,22,24,744,3000,595728,../tiles_1_1835-1837_plus_code/tiles/1835_06_Jun.jpg
+1835-07,1835,7,Jul,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.008,0,11.33,24,24,744,3000,659022,../tiles_1_1835-1837_plus_code/tiles/1835_07_Jul.jpg
+1835-08,1835,8,Aug,Ulm,metadata,1830s-50s form,210012,linked,yes,False,100,,Red ink present,0.087,4232,11.03,24,24,744,3000,644035,../tiles_1_1835-1837_plus_code/tiles/1835_08_Aug.jpg
+1835-09,1835,9,Sep,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.03,0,8.02,24,24,744,3000,605649,../tiles_1_1835-1837_plus_code/tiles/1835_09_Sep.jpg
+1835-10,1835,10,Oct,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.008,0,7.86,24,24,744,3000,599562,../tiles_1_1835-1837_plus_code/tiles/1835_10_Oct.jpg
+1835-11,1835,11,Nov,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.004,0,7.74,24,24,744,3000,590730,../tiles_1_1835-1837_plus_code/tiles/1835_11_Nov.jpg
+1835-12,1835,12,Dec,Ulm,metadata,1830s-50s form,210012,linked,yes,False,90,,Faint blue ink,0.005,0,6.54,24,24,744,3000,593146,../tiles_1_1835-1837_plus_code/tiles/1835_12_Dec.jpg
+1836-01,1836,1,Jan,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.009,0,9.54,24,24,744,3000,667541,../tiles_1_1835-1837_plus_code/tiles/1836_01_Jan.jpg
+1836-02,1836,2,Feb,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.001,16,9.12,24,24,744,3000,686732,../tiles_1_1835-1837_plus_code/tiles/1836_02_Feb.jpg
+1836-03,1836,3,Mar,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.013,0,8.65,24,24,744,3000,663173,../tiles_1_1835-1837_plus_code/tiles/1836_03_Mar.jpg
+1836-04,1836,4,Apr,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.027,0,9.85,24,24,744,3000,718865,../tiles_1_1835-1837_plus_code/tiles/1836_04_Apr.jpg
+1836-05,1836,5,May,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.02,0,9.54,24,24,744,3000,677020,../tiles_1_1835-1837_plus_code/tiles/1836_05_May.jpg
+1836-06,1836,6,Jun,Ulm,metadata,1830s-50s form,210013,linked,yes,False,100,,,0.062,0,9.7,24,24,744,3000,712362,../tiles_1_1835-1837_plus_code/tiles/1836_06_Jun.jpg
+1836-07,1836,7,Jul,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.018,0,11.03,24,24,744,3000,699285,../tiles_1_1835-1837_plus_code/tiles/1836_07_Jul.jpg
+1836-08,1836,8,Aug,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.039,0,11.8,24,24,744,3000,710089,../tiles_1_1835-1837_plus_code/tiles/1836_08_Aug.jpg
+1836-09,1836,9,Sep,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.041,0,9.68,24,24,744,3000,685650,../tiles_1_1835-1837_plus_code/tiles/1836_09_Sep.jpg
+1836-10,1836,10,Oct,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.004,0,3.33,24,24,744,3000,610659,../tiles_1_1835-1837_plus_code/tiles/1836_10_Oct.jpg
+1836-11,1836,11,Nov,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.022,0,3.33,12,24,744,3000,566080,../tiles_1_1835-1837_plus_code/tiles/1836_11_Nov.jpg
+1836-12,1836,12,Dec,Ulm,metadata,1830s-50s form,210013,linked,yes,False,90,,Faint blue ink,0.029,0,3.79,12,24,744,3000,573320,../tiles_1_1835-1837_plus_code/tiles/1836_12_Dec.jpg
+1837-01,1837,1,Jan,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.004,0,3.85,24,24,744,3000,581491,../tiles_1_1835-1837_plus_code/tiles/1837_01_Jan.jpg
+1837-02,1837,2,Feb,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.009,0,4.47,24,24,744,3000,596902,../tiles_1_1835-1837_plus_code/tiles/1837_02_Feb.jpg
+1837-03,1837,3,Mar,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.017,0,3.9,24,24,744,3000,590460,../tiles_1_1835-1837_plus_code/tiles/1837_03_Mar.jpg
+1837-04,1837,4,Apr,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.427,0,13.46,24,24,744,3000,643605,../tiles_1_1835-1837_plus_code/tiles/1837_04_Apr.jpg
+1837-05,1837,5,May,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.658,0,12.02,24,24,744,3000,629432,../tiles_1_1835-1837_plus_code/tiles/1837_05_May.jpg
+1837-06,1837,6,Jun,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.364,0,12.22,24,24,744,3000,642790,../tiles_1_1835-1837_plus_code/tiles/1837_06_Jun.jpg
+1837-07,1837,7,Jul,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.4,0,11.09,24,24,744,3000,628567,../tiles_1_1835-1837_plus_code/tiles/1837_07_Jul.jpg
+1837-08,1837,8,Aug,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.422,11,10.34,25,24,744,3000,621857,../tiles_1_1835-1837_plus_code/tiles/1837_08_Aug.jpg
+1837-09,1837,9,Sep,Ulm,metadata,pasted 1837 sheet,210015,linked,yes,False,90,,Detection flags; Pasted sheet,0.812,0,12.27,23,24,744,3000,627073,../tiles_1_1835-1837_plus_code/tiles/1837_09_Sep.jpg
+1837-10,1837,10,Oct,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.0,0,4.38,24,24,744,3000,591879,../tiles_1_1835-1837_plus_code/tiles/1837_10_Oct.jpg
+1837-11,1837,11,Nov,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.0,0,4.48,24,24,744,3000,596804,../tiles_1_1835-1837_plus_code/tiles/1837_11_Nov.jpg
+1837-12,1837,12,Dec,Ulm,metadata,1830s-50s form,210015,linked,yes,False,80,,Detection flags; Faint blue ink,0.0,0,4.08,24,24,744,3000,582372,../tiles_1_1835-1837_plus_code/tiles/1837_12_Dec.jpg
+1839-01,1839,1,Jan,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.033,0,5.68,24,24,744,3000,622828,../tiles/1839_01_Jan.jpg
+1839-02,1839,2,Feb,Ulm,metadata,1830s-50s form,210018,linked,yes,False,100,,,0.054,0,7.03,24,24,744,3000,629819,../tiles/1839_02_Feb.jpg
+1839-03,1839,3,Mar,Ulm,metadata,1830s-50s form,210018,linked,yes,False,100,,,0.069,0,5.81,24,24,744,3000,595168,../tiles/1839_03_Mar.jpg
+1839-04,1839,4,Apr,Ulm,metadata,1830s-50s form,210018,linked,yes,False,100,,,0.058,83,6.34,24,24,744,3000,631702,../tiles/1839_04_Apr.jpg
+1839-05,1839,5,May,Ulm,metadata,1830s-50s form,210018,linked,yes,False,100,,,0.078,0,7.97,24,24,744,3000,641221,../tiles/1839_05_May.jpg
+1839-06,1839,6,Jun,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.042,0,6.98,24,24,744,3000,629864,../tiles/1839_06_Jun.jpg
+1839-07,1839,7,Jul,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.038,0,4.72,24,24,744,3000,674932,../tiles/1839_07_Jul.jpg
+1839-08,1839,8,Aug,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.046,0,5.08,24,24,744,3000,672396,../tiles/1839_08_Aug.jpg
+1839-09,1839,9,Sep,Ulm,metadata,1830s-50s form,210018,linked,yes,False,100,,,0.052,0,5.05,24,24,744,3000,673324,../tiles/1839_09_Sep.jpg
+1839-10,1839,10,Oct,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.027,0,4.75,24,24,744,3000,671540,../tiles/1839_10_Oct.jpg
+1839-11,1839,11,Nov,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.022,0,5.89,22,24,744,3000,682901,../tiles/1839_11_Nov.jpg
+1839-12,1839,12,Dec,Ulm,metadata,1830s-50s form,210018,linked,yes,False,90,,Faint blue ink,0.038,0,6.11,24,24,744,3000,690635,../tiles/1839_12_Dec.jpg
+1845-01,1845,1,Jan,Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.053,0,6.17,24,24,744,3000,573311,../tiles/1845_01_Jan.jpg
+1845-02,1845,2,Feb,Ulm,metadata,1830s-50s form,210024,linked,yes,False,90,,Faint blue ink,0.046,0,6.75,24,24,744,3000,578148,../tiles/1845_02_Feb.jpg
+1845-03,1845,3,Mar,Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.1,0,6.19,24,24,744,3000,581320,../tiles/1845_03_Mar.jpg
+1845-04,1845,4,Apr,Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.121,0,6.03,24,24,744,3000,597298,../tiles/1845_04_Apr.jpg
+1845-05,1845,5,May,Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.08,0,5.54,24,24,744,3000,550882,../tiles/1845_05_May.jpg
+1845-06,1845,6,Jun,Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.099,0,4.72,24,24,744,3000,559326,../tiles/1845_06_Jun.jpg
+1845-07,1845,7,Jul,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.089,0,3.13,24,24,744,3000,527475,../tiles/1845_07_Jul.jpg
+1845-08,1845,8,Aug,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.113,0,3.89,24,24,744,3000,546676,../tiles/1845_08_Aug.jpg
+1845-09,1845,9,Sep,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,100,,,0.092,0,3.8,24,24,744,3000,548400,../tiles/1845_09_Sep.jpg
+1845-10,1845,10,Oct,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,90,,Detection flags,0.232,0,2.92,24,24,744,3000,511766,../tiles/1845_10_Oct.jpg
+1845-11,1845,11,Nov,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,90,,Detection flags,0.148,0,4.02,24,24,744,3000,544437,../tiles/1845_11_Nov.jpg
+1845-12,1845,12,Dec,Neu-Ulm,metadata,1830s-50s form,210024,linked,yes,False,90,,Detection flags,0.269,0,4.04,24,24,744,3000,542727,../tiles/1845_12_Dec.jpg
+1848-01,1848,1,Jan,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,80,,Detection flags; Faint blue ink,0.027,1,4.75,24,24,744,3000,570157,../tiles/1848_01_Jan.jpg
+1848-02,1848,2,Feb,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,90,,Detection flags,0.071,0,4.87,24,24,744,3000,552541,../tiles/1848_02_Feb.jpg
+1848-03,1848,3,Mar,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,90,,Detection flags,0.06,7,4.34,24,24,744,3000,547922,../tiles/1848_03_Mar.jpg
+1848-04,1848,4,Apr,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,90,,Faint blue ink,0.043,0,5.68,24,24,744,3000,588753,../tiles/1848_04_Apr.jpg
+1848-05,1848,5,May,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,90,,Faint blue ink,0.012,0,5.27,24,24,744,3000,583789,../tiles/1848_05_May.jpg
+1848-06,1848,6,Jun,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,90,,Faint blue ink,0.01,0,5.72,24,24,744,3000,581206,../tiles/1848_06_Jun.jpg
+1848-07,1848,7,Jul,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.15,0,5.28,24,24,744,3000,626603,../tiles/1848_07_Jul.jpg
+1848-08,1848,8,Aug,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.175,0,6.91,24,24,744,3000,651343,../tiles/1848_08_Aug.jpg
+1848-09,1848,9,Sep,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.085,0,4.74,24,24,744,3000,605968,../tiles/1848_09_Sep.jpg
+1848-10,1848,10,Oct,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.105,0,6.67,24,24,744,3000,633970,../tiles/1848_10_Oct.jpg
+1848-11,1848,11,Nov,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.149,4,7.89,24,24,744,3000,655573,../tiles/1848_11_Nov.jpg
+1848-12,1848,12,Dec,Neu-Ulm,metadata,1830s-50s form,210027,linked,yes,False,100,,,0.155,0,6.68,24,24,744,3000,643038,../tiles/1848_12_Dec.jpg
+1849-01,1849,1,Jan,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,1.291,0,6.71,24,24,744,3000,574513,../tiles%202/1849_01_Jan.jpg
+1849-02,1849,2,Feb,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.346,0,7.76,24,24,744,3000,587090,../tiles%202/1849_02_Feb.jpg
+1849-03,1849,3,Mar,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.41,0,5.16,24,24,744,3000,576550,../tiles%202/1849_03_Mar.jpg
+1849-04,1849,4,Apr,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.19,0,4.26,12,23,744,3000,552872,../tiles%202/1849_04_Apr.jpg
+1849-05,1849,5,May,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.22,0,4.86,13,24,744,3000,566742,../tiles%202/1849_05_May.jpg
+1849-06,1849,6,Jun,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.213,16,4.1,12,23,744,3000,552604,../tiles%202/1849_06_Jun.jpg
+1849-07,1849,7,Jul,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.198,3,5.05,24,24,744,3000,604774,../tiles%202/1849_07_Jul.jpg
+1849-08,1849,8,Aug,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.389,0,4.76,24,24,744,3000,617395,../tiles%202/1849_08_Aug.jpg
+1849-09,1849,9,Sep,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.256,0,4.26,24,24,744,3000,598199,../tiles%202/1849_09_Sep.jpg
+1849-10,1849,10,Oct,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.286,19,5.15,24,24,744,3000,614962,../tiles%202/1849_10_Oct.jpg
+1849-11,1849,11,Nov,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.323,76,5.41,24,24,744,3000,624463,../tiles%202/1849_11_Nov.jpg
+1849-12,1849,12,Dec,Neu-Ulm,metadata,1830s-50s form,210028,linked,yes,True,90,,Duplicate file,0.362,11,4.58,24,24,744,3000,603366,../tiles%202/1849_12_Dec.jpg
+1850-01,1850,1,Jan,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.128,0,5.16,24,24,744,3000,575432,../tiles%202/1850_01_Jan.jpg
+1850-02,1850,2,Feb,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.163,0,4.85,24,24,744,3000,574920,../tiles%202/1850_02_Feb.jpg
+1850-03,1850,3,Mar,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.052,0,4.08,24,24,744,3000,559837,../tiles%202/1850_03_Mar.jpg
+1850-04,1850,4,Apr,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.118,0,5.43,24,24,744,3000,579620,../tiles%202/1850_04_Apr.jpg
+1850-05,1850,5,May,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.12,0,5.78,24,24,744,3000,572321,../tiles%202/1850_05_May.jpg
+1850-06,1850,6,Jun,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.207,0,5.77,25,24,744,3000,577987,../tiles%202/1850_06_Jun.jpg
+1850-07,1850,7,Jul,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.136,0,4.69,24,24,744,3000,518906,../tiles%202/1850_07_Jul.jpg
+1850-08,1850,8,Aug,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.15,4,3.32,24,23,744,3000,506272,../tiles%202/1850_08_Aug.jpg
+1850-09,1850,9,Sep,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,90,,Duplicate file,0.085,0,3.32,24,24,744,3000,491782,../tiles%202/1850_09_Sep.jpg
+1850-10,1850,10,Oct,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,80,,Duplicate file; Faint blue ink,0.022,0,3.46,24,24,744,3000,492942,../tiles%202/1850_10_Oct.jpg
+1850-11,1850,11,Nov,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,80,,Duplicate file; Faint blue ink,0.01,0,3.89,24,24,744,3000,495963,../tiles%202/1850_11_Nov.jpg
+1850-12,1850,12,Dec,Neu-Ulm,metadata,1830s-50s form,210029,linked,yes,True,80,,Duplicate file; Faint blue ink,0.012,8,3.56,24,24,744,3000,499555,../tiles%202/1850_12_Dec.jpg
+1862-01,1862,1,Jan,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.178,5,15.67,12,24,744,3000,736029,../tiles%204/1862_01_Jan.jpg
+1862-02,1862,2,Feb,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.144,12,14.1,23,24,744,3000,696004,../tiles%204/1862_02_Feb.jpg
+1862-03,1862,3,Mar,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.053,16,10.76,23,24,744,3000,676623,../tiles%204/1862_03_Mar.jpg
+1862-04,1862,4,Apr,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.083,18,18.65,24,23,744,3000,764890,../tiles%204/1862_04_Apr.jpg
+1862-05,1862,5,May,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.109,0,20.67,24,24,744,3000,771175,../tiles%204/1862_05_May.jpg
+1862-06,1862,6,Jun,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.174,0,18.72,24,24,744,3000,732545,../tiles%204/1862_06_Jun.jpg
+1862-07,1862,7,Jul,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.163,0,18.57,12,23,744,3000,689406,../tiles%204/1862_07_Jul.jpg
+1862-08,1862,8,Aug,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.272,24,16.48,12,23,744,3000,689035,../tiles%204/1862_08_Aug.jpg
+1862-09,1862,9,Sep,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,100,,,0.31,39,10.68,14,23,744,3000,660631,../tiles%204/1862_09_Sep.jpg
+1862-10,1862,10,Oct,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,90,,Faint blue ink,0.014,16,20.03,24,24,744,3000,698209,../tiles%204/1862_10_Oct.jpg
+1862-11,1862,11,Nov,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,90,,Faint blue ink,0.004,8,19.98,12,24,744,3000,703888,../tiles%204/1862_11_Nov.jpg
+1862-12,1862,12,Dec,Neu-Ulm,metadata,1862-63 form,210042,linked,yes,False,90,,Faint blue ink,0.024,14,14.85,24,24,744,3000,685239,../tiles%204/1862_12_Dec.jpg
+1863-01,1863,1,Jan,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.275,0,11.68,23,23,744,3000,565652,../tiles%204/1863_01_Jan.jpg
+1863-02,1863,2,Feb,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.253,0,10.71,23,23,744,3000,560311,../tiles%204/1863_02_Feb.jpg
+1863-03,1863,3,Mar,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.291,0,12.71,23,23,744,3000,564070,../tiles%204/1863_03_Mar.jpg
+1863-04,1863,4,Apr,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.135,0,16.71,24,23,744,3000,575377,../tiles%204/1863_04_Apr.jpg
+1863-05,1863,5,May,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.185,0,14.87,23,24,744,3000,570038,../tiles%204/1863_05_May.jpg
+1863-06,1863,6,Jun,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.186,0,10.67,24,23,744,3000,562412,../tiles%204/1863_06_Jun.jpg
+1863-07,1863,7,Jul,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.137,0,15.42,24,23,744,3000,585634,../tiles%204/1863_07_Jul.jpg
+1863-08,1863,8,Aug,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.193,0,11.92,23,23,744,3000,580078,../tiles%204/1863_08_Aug.jpg
+1863-09,1863,9,Sep,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.211,0,12.41,24,23,744,3000,568181,../tiles%204/1863_09_Sep.jpg
+1863-10,1863,10,Oct,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.137,0,17.44,24,23,744,3000,590135,../tiles%204/1863_10_Oct.jpg
+1863-11,1863,11,Nov,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.151,0,16.96,24,23,744,3000,579807,../tiles%204/1863_11_Nov.jpg
+1863-12,1863,12,Dec,Neu-Ulm,metadata,1862-63 form,210043,linked,yes,False,100,,,0.149,0,16.14,24,23,744,3000,580043,../tiles%204/1863_12_Dec.jpg
+1864-01,1864,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,20,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,Faint blue ink,0.023,0,12.84,24,23,744,3000,614602,../tiles%205/1864_01_Jan.jpg
+1864-02,1864,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.183,0,11.64,24,23,744,3000,600871,../tiles%205/1864_02_Feb.jpg
+1864-03,1864,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.177,0,11.03,24,23,744,3000,616399,../tiles%205/1864_03_Mar.jpg
+1864-04,1864,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.145,0,13.21,24,23,744,3000,646400,../tiles%205/1864_04_Apr.jpg
+1864-05,1864,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.435,0,12.44,23,24,744,3000,646988,../tiles%205/1864_05_May.jpg
+1864-06,1864,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.278,0,14.11,24,24,744,3000,640421,../tiles%205/1864_06_Jun.jpg
+1864-07,1864,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.316,0,19.24,24,23,744,3000,686489,../tiles%205/1864_07_Jul.jpg
+1864-08,1864,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.157,0,18.74,24,23,744,3000,669864,../tiles%205/1864_08_Aug.jpg
+1864-09,1864,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.193,0,15.68,24,24,744,3000,663051,../tiles%205/1864_09_Sep.jpg
+1864-10,1864,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.113,0,8.55,24,23,744,3000,635941,../tiles%205/1864_10_Oct.jpg
+1864-11,1864,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.121,0,8.34,24,24,744,3000,620322,../tiles%205/1864_11_Nov.jpg
+1864-12,1864,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.069,0,9.3,24,24,744,3000,609871,../tiles%205/1864_12_Dec.jpg
+1865-01,1865,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.252,0,3.59,23,23,744,3000,491888,../tiles%205/1865_01_Jan.jpg
+1865-02,1865,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.13,0,4.12,23,24,744,3000,499376,../tiles%205/1865_02_Feb.jpg
+1865-03,1865,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.132,0,4.81,23,24,744,3000,498226,../tiles%205/1865_03_Mar.jpg
+1865-04,1865,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.199,39,4.07,23,23,744,3000,507671,../tiles%205/1865_04_Apr.jpg
+1865-05,1865,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.167,0,3.82,23,24,744,3000,505717,../tiles%205/1865_05_May.jpg
+1865-06,1865,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.132,0,5.3,23,24,744,3000,508698,../tiles%205/1865_06_Jun.jpg
+1865-07,1865,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.243,0,4.92,24,23,744,3000,517584,../tiles%205/1865_07_Jul.jpg
+1865-08,1865,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.332,31,4.29,23,24,744,3000,504540,../tiles%205/1865_08_Aug.jpg
+1865-09,1865,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.145,0,5.75,24,24,744,3000,511306,../tiles%205/1865_09_Sep.jpg
+1865-10,1865,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,20,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,Faint blue ink,0.016,0,9.06,24,23,744,3000,540986,../tiles%205/1865_10_Oct.jpg
+1865-11,1865,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,20,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,Faint blue ink,0.03,0,9.88,24,23,744,3000,542143,../tiles%205/1865_11_Nov.jpg
+1865-12,1865,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,20,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,Faint blue ink,0.019,0,6.59,24,23,744,3000,523368,../tiles%205/1865_12_Dec.jpg
+1872-01,1872,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.152,0,10.56,24,27,744,3000,590868,../tiles%205/1872_01_Jan.jpg
+1872-02,1872,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.159,0,12.52,24,27,744,3000,604337,../tiles%205/1872_02_Feb.jpg
+1872-03,1872,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.139,0,10.24,24,27,744,3000,595160,../tiles%205/1872_03_Mar.jpg
+1872-04,1872,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.253,0,11.29,24,16,744,3000,662125,../tiles%205/1872_04_Apr.jpg
+1872-05,1872,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.581,0,13.18,24,16,744,3000,667168,../tiles%205/1872_05_May.jpg
+1872-06,1872,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.555,0,13.98,24,16,744,3000,690354,../tiles%205/1872_06_Jun.jpg
+1872-07,1872,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.609,0,10.95,24,16,744,3000,629573,../tiles%205/1872_07_Jul.jpg
+1872-08,1872,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.792,0,10.53,24,16,744,3000,623611,../tiles%205/1872_08_Aug.jpg
+1872-09,1872,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.336,0,10.63,24,16,744,3000,625169,../tiles%205/1872_09_Sep.jpg
+1872-10,1872,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.598,0,15.97,12,16,744,3000,640141,../tiles%205/1872_10_Oct.jpg
+1872-11,1872,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.85,0,13.39,12,16,744,3000,629255,../tiles%205/1872_11_Nov.jpg
+1872-12,1872,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.614,0,11.84,12,16,744,3000,632383,../tiles%205/1872_12_Dec.jpg
+1873-01,1873,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.25,15,17.24,24,16,744,3000,667262,../tiles%206/1873_01_Jan.jpg
+1873-02,1873,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.303,0,12.63,24,16,744,3000,640089,../tiles%206/1873_02_Feb.jpg
+1873-03,1873,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.355,50,11.76,23,16,744,3000,657866,../tiles%206/1873_03_Mar.jpg
+1873-04,1873,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.285,0,10.49,24,16,744,3000,640446,../tiles%206/1873_04_Apr.jpg
+1873-05,1873,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.622,0,9.51,24,16,744,3000,639380,../tiles%206/1873_05_May.jpg
+1873-06,1873,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.686,0,9.48,23,16,744,3000,652962,../tiles%206/1873_06_Jun.jpg
+1873-07,1873,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.748,9,10.42,24,16,744,3000,639877,../tiles%206/1873_07_Jul.jpg
+1873-08,1873,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.524,0,9.2,24,16,744,3000,633913,../tiles%206/1873_08_Aug.jpg
+1873-09,1873,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.788,0,9.01,24,16,744,3000,640220,../tiles%206/1873_09_Sep.jpg
+1873-10,1873,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.845,0,17.1,24,16,744,3000,664413,../tiles%206/1873_10_Oct.jpg
+1873-11,1873,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.74,0,12.87,12,16,744,3000,646839,../tiles%206/1873_11_Nov.jpg
+1873-12,1873,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.784,0,11.31,12,16,744,3000,658710,../tiles%206/1873_12_Dec.jpg
+1877-01,1877,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.244,1,7.89,23,16,744,3000,663485,../tiles%206/1877_01_Jan.jpg
+1877-02,1877,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.757,0,8.26,24,16,744,3000,691717,../tiles%206/1877_02_Feb.jpg
+1877-03,1877,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.311,0,7.84,25,16,744,3000,690324,../tiles%206/1877_03_Mar.jpg
+1877-04,1877,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.156,0,11.21,25,16,744,3000,704832,../tiles%206/1877_04_Apr.jpg
+1877-05,1877,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.149,0,12.74,26,16,744,3000,714329,../tiles%206/1877_05_May.jpg
+1877-06,1877,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.144,1,13.94,24,16,744,3000,735754,../tiles%206/1877_06_Jun.jpg
+1877-07,1877,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.342,0,17.4,24,16,744,3000,903467,../tiles%206/1877_07_Jul.jpg
+1877-08,1877,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.361,0,17.21,12,16,744,3000,902684,../tiles%206/1877_08_Aug.jpg
+1877-09,1877,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.195,0,17.25,12,16,744,3000,903787,../tiles%206/1877_09_Sep.jpg
+1877-10,1877,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.147,4,22.76,12,17,744,3000,909935,../tiles%206/1877_10_Oct.jpg
+1877-11,1877,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.227,0,20.43,12,17,744,3000,885718,../tiles%206/1877_11_Nov.jpg
+1877-12,1877,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.281,18,20.67,23,17,744,3000,892389,../tiles%206/1877_12_Dec.jpg
+1878-01,1878,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.2,0,15.34,24,16,744,3000,625934,../tiles%207/1878_01_Jan.jpg
+1878-02,1878,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.099,0,13.49,24,16,744,3000,613342,../tiles%207/1878_02_Feb.jpg
+1878-03,1878,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.252,0,14.4,24,16,744,3000,628236,../tiles%207/1878_03_Mar.jpg
+1878-04,1878,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.188,0,13.06,24,16,744,3000,623154,../tiles%207/1878_04_Apr.jpg
+1878-05,1878,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.182,0,14.21,24,16,744,3000,631140,../tiles%207/1878_05_May.jpg
+1878-06,1878,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.253,13,14.93,23,16,744,3000,629390,../tiles%207/1878_06_Jun.jpg
+1878-07,1878,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.16,0,15.01,24,16,744,3000,632287,../tiles%207/1878_07_Jul.jpg
+1878-08,1878,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.161,0,16.39,23,16,744,3000,641808,../tiles%207/1878_08_Aug.jpg
+1878-09,1878,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.283,0,18.9,24,16,744,3000,656364,../tiles%207/1878_09_Sep.jpg
+1878-10,1878,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.052,0,10.61,24,16,744,3000,615878,../tiles%207/1878_10_Oct.jpg
+1878-11,1878,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.136,0,12.49,24,16,744,3000,621915,../tiles%207/1878_11_Nov.jpg
+1878-12,1878,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.089,26,15.9,24,16,744,3000,643177,../tiles%207/1878_12_Dec.jpg
+1883-01,1883,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.274,0,12.77,24,23,744,3000,694314,../tiles%207/1883_01_Jan.jpg
+1883-02,1883,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.126,0,11.72,25,23,744,3000,686787,../tiles%207/1883_02_Feb.jpg
+1883-03,1883,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.101,0,13.13,25,23,744,3000,678742,../tiles%207/1883_03_Mar.jpg
+1883-04,1883,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.488,0,9.66,24,23,744,3000,677648,../tiles%207/1883_04_Apr.jpg
+1883-05,1883,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.445,0,11.37,25,23,744,3000,678995,../tiles%207/1883_05_May.jpg
+1883-06,1883,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.837,0,13.74,25,23,744,3000,693148,../tiles%207/1883_06_Jun.jpg
+1883-07,1883,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.479,0,11.93,23,23,744,3000,669176,../tiles%207/1883_07_Jul.jpg
+1883-08,1883,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.471,0,10.9,24,23,744,3000,659517,../tiles%207/1883_08_Aug.jpg
+1883-09,1883,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.444,0,12.93,24,23,744,3000,662899,../tiles%207/1883_09_Sep.jpg
+1883-10,1883,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.24,0,16.25,24,24,744,3000,739465,../tiles%207/1883_10_Oct.jpg
+1883-11,1883,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.207,0,15.84,23,24,744,3000,734153,../tiles%207/1883_11_Nov.jpg
+1883-12,1883,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.373,0,14.58,24,24,744,3000,713627,../tiles%207/1883_12_Dec.jpg
+1890-01,1890,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.244,0,15.58,23,23,744,3000,671015,../tiles%208/1890_01_Jan.jpg
+1890-02,1890,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.125,0,15.91,24,23,744,3000,686302,../tiles%208/1890_02_Feb.jpg
+1890-03,1890,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.148,8,14.65,23,23,744,3000,674823,../tiles%208/1890_03_Mar.jpg
+1890-04,1890,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.129,0,14.72,24,23,744,3000,662369,../tiles%208/1890_04_Apr.jpg
+1890-05,1890,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.205,0,13.46,25,23,744,3000,662766,../tiles%208/1890_05_May.jpg
+1890-06,1890,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.237,0,13.55,23,23,744,3000,664268,../tiles%208/1890_06_Jun.jpg
+1890-07,1890,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.434,1,13.8,24,23,744,3000,752287,../tiles%208/1890_07_Jul.jpg
+1890-08,1890,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.619,0,12.6,24,23,744,3000,760584,../tiles%208/1890_08_Aug.jpg
+1890-09,1890,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.629,0,12.97,12,23,744,3000,754307,../tiles%208/1890_09_Sep.jpg
+1890-10,1890,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.283,6,13.53,23,23,744,3000,722848,../tiles%208/1890_10_Oct.jpg
+1890-11,1890,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.269,0,13.99,24,23,744,3000,723441,../tiles%208/1890_11_Nov.jpg
+1890-12,1890,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.08,0,15.1,22,23,744,3000,726507,../tiles%208/1890_12_Dec.jpg
+1891-01,1891,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.176,0,13.24,24,23,744,3000,732080,../tiles%208/1891_01_Jan.jpg
+1891-02,1891,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.169,0,12.41,23,23,744,3000,738984,../tiles%208/1891_02_Feb.jpg
+1891-03,1891,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.387,8,12.73,23,23,744,3000,730960,../tiles%208/1891_03_Mar.jpg
+1891-04,1891,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.489,0,19.16,24,23,744,3000,747737,../tiles%208/1891_04_Apr.jpg
+1891-05,1891,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.423,0,20.65,24,23,744,3000,758952,../tiles%208/1891_05_May.jpg
+1891-06,1891,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.555,0,22.47,24,23,744,3000,777001,../tiles%208/1891_06_Jun.jpg
+1891-07,1891,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,1.333,0,16.02,24,23,744,3000,855722,../tiles%208/1891_07_Jul.jpg
+1891-08,1891,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,1.16,0,14.97,24,23,744,3000,849513,../tiles%208/1891_08_Aug.jpg
+1891-09,1891,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.882,0,15.42,23,23,744,3000,846264,../tiles%208/1891_09_Sep.jpg
+1891-10,1891,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.219,0,8.81,23,23,744,3000,794062,../tiles%208/1891_10_Oct.jpg
+1891-11,1891,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.283,0,8.9,23,23,744,3000,813448,../tiles%208/1891_11_Nov.jpg
+1891-12,1891,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.556,0,10.17,22,23,744,3000,820567,../tiles%208/1891_12_Dec.jpg
+1893-01,1893,1,Jan,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.181,0,14.68,25,23,744,3000,793213,../tiles%208/1893_01_Jan.jpg
+1893-02,1893,2,Feb,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.75,0,15.35,25,23,744,3000,820246,../tiles%208/1893_02_Feb.jpg
+1893-03,1893,3,Mar,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.488,0,14.92,25,23,744,3000,815664,../tiles%208/1893_03_Mar.jpg
+1893-04,1893,4,Apr,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.247,0,9.6,24,23,744,3000,805284,../tiles%208/1893_04_Apr.jpg
+1893-05,1893,5,May,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.354,0,8.57,24,23,744,3000,804202,../tiles%208/1893_05_May.jpg
+1893-06,1893,6,Jun,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.289,0,9.22,24,23,744,3000,818810,../tiles%208/1893_06_Jun.jpg
+1893-07,1893,7,Jul,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.578,0,9.53,25,23,744,3000,778468,../tiles%208/1893_07_Jul.jpg
+1893-08,1893,8,Aug,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.304,0,10.7,24,23,744,3000,799635,../tiles%208/1893_08_Aug.jpg
+1893-09,1893,9,Sep,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.584,0,12.76,25,23,744,3000,803188,../tiles%208/1893_09_Sep.jpg
+1893-10,1893,10,Oct,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.479,0,12.57,25,23,744,3000,788541,../tiles%208/1893_10_Oct.jpg
+1893-11,1893,11,Nov,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.377,0,14.33,24,23,744,3000,779861,../tiles%208/1893_11_Nov.jpg
+1893-12,1893,12,Dec,Neu-Ulm,inferred,unclassified,,unlinked,no,False,30,No per-tile metadata; Source scan not linked; Station inferred; Form unclassified,,0.161,0,16.26,24,23,744,3000,801778,../tiles%208/1893_12_Dec.jpg
