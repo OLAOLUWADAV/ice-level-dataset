@@ -1,0 +1,5 @@
+Replace this file with 1837-11_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1837_11_Nov.jpg
+Era: faded  Form: 1830s-50s  Season: winter
+Flags: none

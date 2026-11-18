@@ -1,0 +1,5 @@
+Replace this file with 1864-08_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1864_08_Aug.jpg
+Era: later  Form: unclassified  Season: summer
+Flags: none

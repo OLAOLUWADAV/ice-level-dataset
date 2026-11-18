@@ -1,0 +1,5 @@
+Replace this file with 1864-01_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1864_01_Jan.jpg
+Era: later  Form: unclassified  Season: winter
+Flags: none

@@ -1,0 +1,5 @@
+Replace this file with 1890-02_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1890_02_Feb.jpg
+Era: later  Form: unclassified  Season: winter
+Flags: none

@@ -1,0 +1,89 @@
+{
+  "_note": "Calibration skeleton — stage_unit and minor_unit_m fields require manual transcription from TIFF side scales. See DATASET_DOCUMENTATION.md §6.4.",
+  "_generated": "2026-11-18",
+  "forms": {
+    "1830s-50s": {
+      "years": [1835, 1836, 1837, 1839, 1845, 1848, 1849, 1850],
+      "grid_px_x": 24.0,
+      "grid_px_y": 24.0,
+      "px_per_day": 24.0,
+      "stage_direction": "bottom_to_top",
+      "stage_unit": null,
+      "minor_unit_m": null,
+      "major_every_n_minor": 5,
+      "tile_height_px": 3000,
+      "tile_width_px": 744,
+      "note": "Side scale occasionally visible at left edge. Stage unit may be Bavarian feet (1 Fuss ≈ 0.2919 m) or decimal cm. Transcribe from scan 210012 (1835) header.",
+      "transcription_status": "pending"
+    },
+    "1862-63": {
+      "years": [1862, 1863],
+      "grid_px_x": 23.5,
+      "grid_px_y": 23.5,
+      "px_per_day": 23.5,
+      "stage_direction": "bottom_to_top",
+      "stage_unit": null,
+      "minor_unit_m": null,
+      "major_every_n_minor": 5,
+      "tile_height_px": 3000,
+      "tile_width_px": 744,
+      "note": "Denser printing than 1830s form. Scan IDs 210042-210043.",
+      "transcription_status": "pending"
+    },
+    "fine-grid": {
+      "years": [1872, 1873, 1877, 1878],
+      "grid_px_x": 24.0,
+      "grid_px_y": 16.0,
+      "px_per_day": 24.0,
+      "stage_direction": "bottom_to_top",
+      "stage_unit": null,
+      "minor_unit_m": null,
+      "major_every_n_minor": 5,
+      "tile_height_px": 3000,
+      "tile_width_px": 744,
+      "note": "CRITICAL: stage rulings are 16 px not 24. Each 16 px = 1 minor unit. Stage unit may differ from 1830s form. Scan IDs 210053, 210054, 210058, 210059.",
+      "transcription_status": "pending"
+    },
+    "unclassified": {
+      "years": [1864, 1865, 1883, 1890, 1891, 1893],
+      "grid_px_x": 23.5,
+      "grid_px_y": 23.0,
+      "px_per_day": 23.5,
+      "stage_direction": "bottom_to_top",
+      "stage_unit": null,
+      "minor_unit_m": null,
+      "major_every_n_minor": 5,
+      "tile_height_px": 3000,
+      "tile_width_px": 744,
+      "note": "Form not yet classified. Inspect TIFF headers for 210044, 210045, 210064, 210071, 210072, 210074. Grid spacing estimated from manifest audit.",
+      "transcription_status": "pending"
+    }
+  },
+  "station_epochs": [
+    {
+      "station": "Ulm",
+      "start_year": 1835, "start_month": 1,
+      "end_year": 1845,   "end_month": 6,
+      "gauge_zero_m": null,
+      "coordinates_wgs84": null,
+      "datum_note": "Pre-1845 Ulm gauge. Relationship to Neu-Ulm gauge zero unestablished. Must be resolved from archival records before combining epochs."
+    },
+    {
+      "station": "Neu-Ulm",
+      "start_year": 1845, "start_month": 7,
+      "end_year": 1893,   "end_month": 12,
+      "gauge_zero_m": null,
+      "coordinates_wgs84": null,
+      "datum_note": "Post-1845 Neu-Ulm gauge. Modern Neu-Ulm gauge data available from BfG/WSV for comparison — requires datum alignment."
+    }
+  ],
+  "transcription_procedure": {
+    "step_1": "Open full-resolution TIFF (not the 744×3000 tile) in an image viewer.",
+    "step_2": "Locate the printed side scale — typically a column of numbers at the left or right edge of each panel.",
+    "step_3": "Record the numeric values and their pixel y-positions on the full-resolution TIFF.",
+    "step_4": "Fit a linear regression: stage_value ~ pixel_y. The slope gives minor_unit_m (stage metres per pixel).",
+    "step_5": "Record the axis zero: the stage value at the bottom crop edge.",
+    "step_6": "Confirm: one minor grid cell = grid_px_y pixels × (minor_unit_m metres/pixel).",
+    "step_7": "Update this file: set stage_unit, minor_unit_m, and change transcription_status to 'complete'."
+  }
+}

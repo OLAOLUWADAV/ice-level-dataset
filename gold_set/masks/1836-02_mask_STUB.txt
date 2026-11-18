@@ -1,0 +1,5 @@
+Replace this file with 1836-02_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1836_02_Feb.jpg
+Era: faded  Form: 1830s-50s  Season: winter
+Flags: none

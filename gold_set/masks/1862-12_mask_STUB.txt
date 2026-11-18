@@ -1,0 +1,5 @@
+Replace this file with 1862-12_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1862_12_Dec.jpg
+Era: 1862-63  Form: 1862-63  Season: winter
+Flags: none

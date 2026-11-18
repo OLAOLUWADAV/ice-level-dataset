@@ -1,0 +1,5 @@
+Replace this file with 1863-03_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1863_03_Mar.jpg
+Era: 1862-63  Form: 1862-63  Season: winter
+Flags: none

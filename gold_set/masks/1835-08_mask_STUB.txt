@@ -1,0 +1,5 @@
+Replace this file with 1835-08_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1835_08_Aug.jpg
+Era: faded  Form: 1830s-50s  Season: summer
+Flags: ['red-ink-series']

@@ -1,0 +1,5 @@
+Replace this file with 1872-06_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1872_06_Jun.jpg
+Era: fine-grid  Form: fine-grid  Season: summer
+Flags: none

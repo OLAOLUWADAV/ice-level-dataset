@@ -1,0 +1,5 @@
+Replace this file with 1837-04_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1837_04_Apr.jpg
+Era: faded  Form: 1830s-50s  Season: summer
+Flags: ['pasted-sheet', 'hand-checked-box']

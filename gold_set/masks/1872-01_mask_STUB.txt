@@ -1,0 +1,5 @@
+Replace this file with 1872-01_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1872_01_Jan.jpg
+Era: fine-grid  Form: fine-grid  Season: winter
+Flags: none

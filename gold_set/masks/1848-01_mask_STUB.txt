@@ -1,0 +1,5 @@
+Replace this file with 1848-01_mask.png
+Binary PNG, 744×3000 px, white=curve, black=background.
+Source tile: 1848_01_Jan.jpg
+Era: standard  Form: 1830s-50s  Season: winter
+Flags: ['repaired-base']

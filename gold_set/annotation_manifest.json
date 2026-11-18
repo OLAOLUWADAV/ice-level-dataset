@@ -1,0 +1,284 @@
+{
+  "total_gold_tiles": 24,
+  "winter_tiles": 12,
+  "era_counts": {
+    "faded": 8,
+    "standard": 4,
+    "1862-63": 4,
+    "fine-grid": 4,
+    "later": 4
+  },
+  "tiles": [
+    {
+      "tile_id": "1835-01",
+      "file": "1835_01_Jan.jpg",
+      "year": 1835,
+      "month": 1,
+      "era": "faded",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1835-01_mask.png",
+      "stage_target": "stage_csv/1835-01_stage.csv"
+    },
+    {
+      "tile_id": "1835-08",
+      "file": "1835_08_Aug.jpg",
+      "year": 1835,
+      "month": 8,
+      "era": "faded",
+      "season": "summer",
+      "flags": [
+        "red-ink-series"
+      ],
+      "mask_target": "masks/1835-08_mask.png",
+      "stage_target": "stage_csv/1835-08_stage.csv"
+    },
+    {
+      "tile_id": "1836-02",
+      "file": "1836_02_Feb.jpg",
+      "year": 1836,
+      "month": 2,
+      "era": "faded",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1836-02_mask.png",
+      "stage_target": "stage_csv/1836-02_stage.csv"
+    },
+    {
+      "tile_id": "1836-07",
+      "file": "1836_07_Jul.jpg",
+      "year": 1836,
+      "month": 7,
+      "era": "faded",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1836-07_mask.png",
+      "stage_target": "stage_csv/1836-07_stage.csv"
+    },
+    {
+      "tile_id": "1837-04",
+      "file": "1837_04_Apr.jpg",
+      "year": 1837,
+      "month": 4,
+      "era": "faded",
+      "season": "summer",
+      "flags": [
+        "pasted-sheet",
+        "hand-checked-box"
+      ],
+      "mask_target": "masks/1837-04_mask.png",
+      "stage_target": "stage_csv/1837-04_stage.csv"
+    },
+    {
+      "tile_id": "1837-11",
+      "file": "1837_11_Nov.jpg",
+      "year": 1837,
+      "month": 11,
+      "era": "faded",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1837-11_mask.png",
+      "stage_target": "stage_csv/1837-11_stage.csv"
+    },
+    {
+      "tile_id": "1839-01",
+      "file": "1839_01_Jan.jpg",
+      "year": 1839,
+      "month": 1,
+      "era": "faded",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1839-01_mask.png",
+      "stage_target": "stage_csv/1839-01_stage.csv"
+    },
+    {
+      "tile_id": "1839-06",
+      "file": "1839_06_Jun.jpg",
+      "year": 1839,
+      "month": 6,
+      "era": "faded",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1839-06_mask.png",
+      "stage_target": "stage_csv/1839-06_stage.csv"
+    },
+    {
+      "tile_id": "1848-01",
+      "file": "1848_01_Jan.jpg",
+      "year": 1848,
+      "month": 1,
+      "era": "standard",
+      "season": "winter",
+      "flags": [
+        "repaired-base"
+      ],
+      "mask_target": "masks/1848-01_mask.png",
+      "stage_target": "stage_csv/1848-01_stage.csv"
+    },
+    {
+      "tile_id": "1848-08",
+      "file": "1848_08_Aug.jpg",
+      "year": 1848,
+      "month": 8,
+      "era": "standard",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1848-08_mask.png",
+      "stage_target": "stage_csv/1848-08_stage.csv"
+    },
+    {
+      "tile_id": "1850-02",
+      "file": "1850_02_Feb.jpg",
+      "year": 1850,
+      "month": 2,
+      "era": "standard",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1850-02_mask.png",
+      "stage_target": "stage_csv/1850-02_stage.csv"
+    },
+    {
+      "tile_id": "1850-09",
+      "file": "1850_09_Sep.jpg",
+      "year": 1850,
+      "month": 9,
+      "era": "standard",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1850-09_mask.png",
+      "stage_target": "stage_csv/1850-09_stage.csv"
+    },
+    {
+      "tile_id": "1862-05",
+      "file": "1862_05_May.jpg",
+      "year": 1862,
+      "month": 5,
+      "era": "1862-63",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1862-05_mask.png",
+      "stage_target": "stage_csv/1862-05_stage.csv"
+    },
+    {
+      "tile_id": "1862-12",
+      "file": "1862_12_Dec.jpg",
+      "year": 1862,
+      "month": 12,
+      "era": "1862-63",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1862-12_mask.png",
+      "stage_target": "stage_csv/1862-12_stage.csv"
+    },
+    {
+      "tile_id": "1863-03",
+      "file": "1863_03_Mar.jpg",
+      "year": 1863,
+      "month": 3,
+      "era": "1862-63",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1863-03_mask.png",
+      "stage_target": "stage_csv/1863-03_stage.csv"
+    },
+    {
+      "tile_id": "1863-07",
+      "file": "1863_07_Jul.jpg",
+      "year": 1863,
+      "month": 7,
+      "era": "1862-63",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1863-07_mask.png",
+      "stage_target": "stage_csv/1863-07_stage.csv"
+    },
+    {
+      "tile_id": "1864-01",
+      "file": "1864_01_Jan.jpg",
+      "year": 1864,
+      "month": 1,
+      "era": "later",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1864-01_mask.png",
+      "stage_target": "stage_csv/1864-01_stage.csv"
+    },
+    {
+      "tile_id": "1864-08",
+      "file": "1864_08_Aug.jpg",
+      "year": 1864,
+      "month": 8,
+      "era": "later",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1864-08_mask.png",
+      "stage_target": "stage_csv/1864-08_stage.csv"
+    },
+    {
+      "tile_id": "1872-01",
+      "file": "1872_01_Jan.jpg",
+      "year": 1872,
+      "month": 1,
+      "era": "fine-grid",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1872-01_mask.png",
+      "stage_target": "stage_csv/1872-01_stage.csv"
+    },
+    {
+      "tile_id": "1872-06",
+      "file": "1872_06_Jun.jpg",
+      "year": 1872,
+      "month": 6,
+      "era": "fine-grid",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1872-06_mask.png",
+      "stage_target": "stage_csv/1872-06_stage.csv"
+    },
+    {
+      "tile_id": "1877-07",
+      "file": "1877_07_Jul.jpg",
+      "year": 1877,
+      "month": 7,
+      "era": "fine-grid",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1877-07_mask.png",
+      "stage_target": "stage_csv/1877-07_stage.csv"
+    },
+    {
+      "tile_id": "1877-12",
+      "file": "1877_12_Dec.jpg",
+      "year": 1877,
+      "month": 12,
+      "era": "fine-grid",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1877-12_mask.png",
+      "stage_target": "stage_csv/1877-12_stage.csv"
+    },
+    {
+      "tile_id": "1890-02",
+      "file": "1890_02_Feb.jpg",
+      "year": 1890,
+      "month": 2,
+      "era": "later",
+      "season": "winter",
+      "flags": [],
+      "mask_target": "masks/1890-02_mask.png",
+      "stage_target": "stage_csv/1890-02_stage.csv"
+    },
+    {
+      "tile_id": "1890-09",
+      "file": "1890_09_Sep.jpg",
+      "year": 1890,
+      "month": 9,
+      "era": "later",
+      "season": "summer",
+      "flags": [],
+      "mask_target": "masks/1890-09_mask.png",
+      "stage_target": "stage_csv/1890-09_stage.csv"
+    }
+  ]
+}
