@@ -20,6 +20,7 @@
       <button class="navlink is-active" data-nav="overview">Overview</button>
       <button class="navlink" data-nav="patterns">Long-run patterns</button>
       <button class="navlink" data-nav="query">Query</button>
+      <button class="navlink" data-nav="pipeline">Pipeline</button>
       <button class="navlink" data-nav="validity">Validity</button>
       <button class="navlink" data-nav="about">About</button>
     </nav>
@@ -244,6 +245,16 @@
             </select>
           </label>
           <label class="field">
+            <span>Ice class</span>
+            <select id="f-ice">
+              <option value="">Any</option>
+              <option value="confirmed">Confirmed ice</option>
+              <option value="likely">Likely ice</option>
+              <option value="possible">Possible ice</option>
+              <option value="none">No ice</option>
+            </select>
+          </label>
+          <label class="field">
             <span>Technical flag</span>
             <select id="f-flag">
               <option value="">Any</option>
@@ -312,6 +323,8 @@
                 <th>Form</th>
                 <th>Metadata</th>
                 <th>Source</th>
+                <th>Coverage</th>
+                <th>Ice class</th>
                 <th>Completeness</th>
                 <th>Flags</th>
                 <th>Review</th>
@@ -333,6 +346,96 @@
           <button class="button button-quiet" id="close-check" type="button">Close</button>
         </div>
         <div id="validity-check-content"></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-pipeline" data-view="pipeline">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">Analysis pipeline</p>
+          <h1>Three research goals</h1>
+          <p class="lede">From raw scan to ice-condition signal. Each goal unlocks a different kind of question the dataset can answer.</p>
+        </div>
+        <div class="page-actions" id="pipeline-run-stats"></div>
+      </div>
+
+      <section class="panel pipeline-goal">
+        <div class="pipeline-badge pipeline-done">W6 complete</div>
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Goal 01 — Curve extraction</p>
+            <h2>Reproduce the processing pipeline with LineFormer</h2>
+          </div>
+        </div>
+        <p>Set up a LineFormer instance and extract candidate polygons from the tiles, then automatically select the best candidate for each curve. The colour-segmentation baseline is running; LineFormer is the next step once the checkpoint is installed.</p>
+        <div class="pipeline-metrics" id="pipeline-metrics-curve"></div>
+        <ul class="pipeline-checklist">
+          <li class="pl-done">Colour segmentation + Retinex blue detection (all 240 tiles)</li>
+          <li class="pl-done">Grid detection and mask (threshold fixed: ink 100 not 20)</li>
+          <li class="pl-done">ERA classification via year-based lookup (FADED / FINE_GRID sets)</li>
+          <li class="pl-done">Component selection: x-coverage × 0.5, continuity × 0.3, position × 0.1, size × 0.1</li>
+          <li class="pl-done">Morphological reconnect at 1.5× grid spacing after grid removal</li>
+          <li class="pl-done">Full 240-tile baseline run — <code>analysis_out/curve_results.json</code></li>
+          <li class="pl-done">LineFormer wrapper written — <code>lineformer_wrapper.py</code></li>
+          <li class="pl-done">Eval harness written — <code>eval_extractor.py</code></li>
+          <li class="pl-part">Gold set annotation (24 tiles) — masks and stage CSVs pending</li>
+          <li class="pl-todo">LineFormer install: <code>iter_3000.pth</code> checkpoint + conda env</li>
+          <li class="pl-todo">W4 eval: run <code>python3 eval_extractor.py --gold gold_set/</code> after annotation</li>
+        </ul>
+        <div class="callout">
+          <strong>Next step</strong>
+          <p>Annotate at least one gold tile in <code>gold_set/</code> (LabelMe polygon → PNG mask), then run <code>python3 eval_extractor.py --gold gold_set/</code> to get the first IoU score.</p>
+        </div>
+      </section>
+
+      <section class="panel pipeline-goal">
+        <div class="pipeline-badge pipeline-part">Partial</div>
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Goal 02 — Automated tile cutting</p>
+            <h2>End-to-end pipeline from raw scan to monthly tiles</h2>
+          </div>
+        </div>
+        <p>Right now the cutter relies on manual inputs — panel positions are hand-entered per scan (<code>priors.json</code>), year and station metadata are typed in from the headers, and the settings only cover 1835–1863 layouts. The goal is an end-to-end pipeline that takes a raw scan and automatically outputs cut monthly tiles with metadata, detecting the panels and month columns on its own across all sheet types.</p>
+        <ul class="pipeline-checklist">
+          <li class="pl-done">CLI modes: <code>detect</code> / <code>tile</code> / <code>run</code> / <code>batch</code> — <code>auto_pipeline.py</code></li>
+          <li class="pl-done">1835–1863 form layout (24×24px grid, standard header)</li>
+          <li class="pl-done">Fine-grid form (1872–1878, 16px stage rulings)</li>
+          <li class="pl-done">Manifest v2 with SHA-256, ERA, station, form — <code>manifest_v2.json</code></li>
+          <li class="pl-part">1864–65 / 1883 / 1890s forms — marked <em>unclassified</em>, require visual inspection</li>
+          <li class="pl-todo">Auto-detect panel positions from scan (replace <code>priors.json</code>)</li>
+          <li class="pl-todo">Parse year/station from scan header text (replace manual META)</li>
+        </ul>
+        <div class="callout callout-warn">
+          <strong>Blocked on</strong>
+          <p>Visual inspection of TIFF headers for scan IDs 210044, 210045, 210064, 210071, 210072, 210074 to classify the unclassified forms. See <code>calibration.json → forms.unclassified</code>.</p>
+        </div>
+      </section>
+
+      <section class="panel pipeline-goal">
+        <div class="pipeline-badge pipeline-part">W9 in progress</div>
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Goal 03 — Ice condition detection</p>
+            <h2>Detect ice from line style across the hydrographs</h2>
+          </div>
+        </div>
+        <p>The way a curve is drawn — dashed vs. solid lines, gaps — encodes river-ice conditions. Simple colour thresholds won't work because ink appearance varies widely across eras. The approach: label a sample of winter months, map marking conventions per sheet type, then classify line styles along the extracted curve.</p>
+        <div class="pipeline-metrics" id="pipeline-metrics-ice"></div>
+        <ul class="pipeline-checklist">
+          <li class="pl-done">Ice classifier — gap fraction, dashed autocorrelation, season — <code>ice_classifier.py</code></li>
+          <li class="pl-done">Output: none / possible / likely / confirmed per tile</li>
+          <li class="pl-done">Interactive labelling tool — <code>ice_labeler.py</code></li>
+          <li class="pl-done">100 winter stubs seeded in <code>ice_labels.json</code> (months 11–3)</li>
+          <li class="pl-part">W9 labelling in progress — 0 / 100 tiles labelled (run <code>python3 ice_labeler.py</code>)</li>
+          <li class="pl-part">Dashed-line detector depends on curve coverage — faint-era reliability limited</li>
+          <li class="pl-todo">W11 benchmark: compare classifier output vs. manual labels (IoU and F1)</li>
+          <li class="pl-todo">Map marking conventions: which era uses which dashing convention?</li>
+        </ul>
+        <div class="callout">
+          <strong>Next step</strong>
+          <p>Run <code>python3 ice_labeler.py --results analysis_out/curve_results.json</code> to label winter tiles interactively. Labels feed the W11 benchmark once complete.</p>
+        </div>
       </section>
     </section>
 

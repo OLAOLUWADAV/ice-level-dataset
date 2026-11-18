@@ -13,7 +13,7 @@
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   const REVIEW_KEY = "ice-reviews-v1";
-  const VIEWS = ["overview", "patterns", "query", "validity", "about"];
+  const VIEWS = ["overview", "patterns", "query", "pipeline", "validity", "about"];
   const FLAG_ANY = "any";
 
   let reviews = loadReviews();
@@ -165,6 +165,14 @@
       { value: STATS.faint_tiles, suffix: "", label: "Faint blue ink", note: "Blue pixel share below 0.05%" },
       { value: STATS.avg_doc_score, suffix: "/100", label: "Average completeness", note: "Documentation coverage, not accuracy" }
     ];
+    const an = STATS.analysis || {};
+    const ic = an.ice_classification || {};
+    if (an.mean_coverage) {
+      items.push(
+        { value: Math.round(an.mean_coverage * 100), suffix: "%", label: "Mean curve coverage", note: an.above_30pct + " of " + TILES.length + " tiles above 30% · " + (an.zero_coverage || 0) + " zero-coverage" },
+        { value: ic.confirmed || 0, suffix: "", label: "Confirmed ice tiles", note: "possible " + (ic.possible || 0) + " · likely " + (ic.likely || 0) + " · none " + (ic.none || 0) }
+      );
+    }
     $("stats-grid").innerHTML = items.map(function (item) {
       return '<article class="stat"><div class="stat-value">' + esc(item.value) + '<span>' + esc(item.suffix) + '</span></div><div class="stat-label">' + esc(item.label) + '</div><div class="stat-note">' + esc(item.note) + '</div></article>';
     }).join("");
@@ -341,6 +349,7 @@
       month: $("f-month").value,
       station: $("f-station").value,
       metadata: $("f-metadata").value,
+      ice: $("f-ice") ? $("f-ice").value : "",
       flag: $("f-flag").value,
       review: $("f-review").value,
       search: $("f-search").value.trim(),
@@ -370,6 +379,7 @@
       if (filters.station && tile.station !== filters.station) return false;
       if (filters.metadata === "yes" && !metadataLinked(tile)) return false;
       if (filters.metadata === "no" && metadataLinked(tile)) return false;
+      if (filters.ice && tile.ice_class !== filters.ice) return false;
       if (filters.review && reviewStatusOf(tile) !== filters.review) return false;
       if (!matchesFlag(tile, filters.flag)) return false;
       if (Number(tile.doc_score) < filters.score) return false;
@@ -412,6 +422,13 @@
     const body = $("query-body");
     body.innerHTML = currentResults.map(function (tile) {
       const status = reviewStatusOf(tile);
+      const covPct = tile.curve_coverage != null ? Math.round(tile.curve_coverage * 100) : null;
+      const covCell = covPct != null
+        ? '<span class="cov-mini"><span class="cov-mini-track"><span style="width:' + covPct + '%;background:' + (covPct >= 50 ? "var(--green)" : covPct >= 30 ? "var(--amber)" : "var(--oxblood)") + '"></span></span><span class="num">' + covPct + '%</span></span>'
+        : '<span class="microcopy">—</span>';
+      const iceClass = tile.ice_class || "none";
+      const iceColors = { confirmed: "tag-bad", likely: "tag-warn", possible: "tag-neutral", none: "tag-good" };
+      const iceCell = '<span class="tag ' + (iceColors[iceClass] || "tag-neutral") + '">' + esc(iceClass) + '</span>';
       return "<tr>" +
         '<td class="num">' + tile.year + "</td>" +
         "<td>" + esc(monthName(tile)) + "</td>" +
@@ -419,6 +436,8 @@
         '<td>' + esc(tile.form) + "</td>" +
         "<td>" + (metadataLinked(tile) ? '<span class="tag tag-good">Linked</span>' : '<span class="tag tag-warn">Image only</span>') + "</td>" +
         '<td class="num">' + esc(tile.source_scan || "—") + "</td>" +
+        "<td>" + covCell + "</td>" +
+        "<td>" + iceCell + "</td>" +
         "<td>" + scoreCell(tile) + "</td>" +
         "<td>" + flagSummary(tile) + "</td>" +
         '<td><span class="tag ' + reviewTagClass(status) + '">' + esc(reviewLabel(status)) + "</span></td>" +
@@ -1097,6 +1116,34 @@
     });
   }
 
+  function initPipeline() {
+    const an = STATS.analysis || {};
+    const ic = an.ice_classification || {};
+    const runEl = $("pipeline-run-stats");
+    if (runEl && an.run_date) {
+      runEl.innerHTML =
+        '<p class="eyebrow">Last run</p>' +
+        '<p><strong>' + esc(an.run_date) + '</strong> · ' + (an.tiles_processed || 0) + ' tiles processed</p>';
+    }
+    const curveEl = $("pipeline-metrics-curve");
+    if (curveEl && an.mean_coverage != null) {
+      const covPct = Math.round(an.mean_coverage * 100);
+      curveEl.innerHTML =
+        '<div class="pl-metric"><span class="pl-metric-val">' + covPct + '%</span><span>mean coverage</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val">' + (an.above_50pct || 0) + '</span><span>tiles &gt;50%</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val">' + (an.above_30pct || 0) + '</span><span>tiles &gt;30%</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val">' + (an.zero_coverage || 0) + '</span><span>zero coverage</span></div>';
+    }
+    const iceEl = $("pipeline-metrics-ice");
+    if (iceEl && (ic.confirmed != null || ic.none != null)) {
+      iceEl.innerHTML =
+        '<div class="pl-metric"><span class="pl-metric-val ice-confirmed">' + (ic.confirmed || 0) + '</span><span>confirmed</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val ice-likely">' + (ic.likely || 0) + '</span><span>likely</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val ice-possible">' + (ic.possible || 0) + '</span><span>possible</span></div>' +
+        '<div class="pl-metric"><span class="pl-metric-val">' + (ic.none || 0) + '</span><span>no ice</span></div>';
+    }
+  }
+
   function init() {
     bindNavigation();
     renderStats();
@@ -1104,6 +1151,7 @@
     renderStations();
     initPatterns();
     initQuery();
+    initPipeline();
     initValidity();
     initModal();
 

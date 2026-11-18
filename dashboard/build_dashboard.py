@@ -399,8 +399,53 @@ def write_outputs(data: dict):
             })
 
 
+def merge_analysis(data: dict) -> dict:
+    """Fold curve_results.json and ice_results.json into the tile records and stats."""
+    curve_path = ROOT / "analysis_out" / "curve_results.json"
+    ice_path   = ROOT / "analysis_out" / "ice_results.json"
+
+    if curve_path.exists():
+        curve_map = {f"{r['year']}-{r['month']:02d}": r
+                     for r in json.loads(curve_path.read_text())}
+        for tile in data["tiles"]:
+            cr = curve_map.get(tile["id"]) or {}
+            tile["curve_coverage"]   = round(cr.get("coverage",   0.0), 3)
+            tile["curve_confidence"] = round(cr.get("confidence", 0.0), 3)
+            tile["curve_era"]        = cr.get("era") or ""
+        covs = [t["curve_coverage"] for t in data["tiles"]]
+        data["stats"]["analysis"] = {
+            "run_date":        "2026-11-18",
+            "tiles_processed": len(covs),
+            "mean_coverage":   round(sum(covs) / max(len(covs), 1), 3),
+            "above_50pct":     sum(1 for c in covs if c > 0.5),
+            "above_30pct":     sum(1 for c in covs if c > 0.3),
+            "zero_coverage":   sum(1 for c in covs if c == 0.0),
+        }
+        print(f"  analysis: mean_cov={data['stats']['analysis']['mean_coverage']}")
+    else:
+        print("  analysis_out/curve_results.json not found — skipping analysis merge")
+
+    if ice_path.exists():
+        ice_map = {f"{r['year']}-{r['month']:02d}": r
+                   for r in json.loads(ice_path.read_text())}
+        cls_counts: Counter = Counter()
+        for tile in data["tiles"]:
+            ir = ice_map.get(tile["id"]) or {}
+            tile["ice_class"]    = ir.get("ice_class") or "none"
+            tile["gap_fraction"] = round(ir.get("gap_fraction", 0.0), 3)
+            cls_counts[tile["ice_class"]] += 1
+        if "analysis" in data["stats"]:
+            data["stats"]["analysis"]["ice_classification"] = dict(cls_counts)
+        print(f"  ice: {dict(cls_counts)}")
+    else:
+        print("  analysis_out/ice_results.json not found — skipping ice merge")
+
+    return data
+
+
 def main():
     data = build_manifest()
+    data = merge_analysis(data)
     build_thumbs_and_patterns(data)
     write_outputs(data)
     print(json.dumps(data["stats"], indent=1))
