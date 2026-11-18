@@ -1,0 +1,125 @@
+{
+  "tile_count": 240,
+  "mean_coverage": 0.535,
+  "mean_confidence": 0.31,
+  "coverage_distribution": {
+    "0.0-0.2": 12,
+    "0.2-0.5": 115,
+    "0.5-0.8": 63,
+    "0.8-1.0": 50
+  },
+  "era_counts": {
+    "faded": 48,
+    "standard": 144,
+    "1872-1878": 48
+  },
+  "ice_summary": {
+    "likely": 21,
+    "confirmed": 81,
+    "possible": 88,
+    "none": 50
+  },
+  "winter_ice_count": 101,
+  "per_year": {
+    "1835": {
+      "total": 12,
+      "ice_months": 10,
+      "mean_ice_score": 0.402
+    },
+    "1836": {
+      "total": 12,
+      "ice_months": 10,
+      "mean_ice_score": 0.446
+    },
+    "1837": {
+      "total": 12,
+      "ice_months": 12,
+      "mean_ice_score": 0.504
+    },
+    "1839": {
+      "total": 12,
+      "ice_months": 9,
+      "mean_ice_score": 0.449
+    },
+    "1845": {
+      "total": 12,
+      "ice_months": 8,
+      "mean_ice_score": 0.351
+    },
+    "1848": {
+      "total": 12,
+      "ice_months": 10,
+      "mean_ice_score": 0.369
+    },
+    "1849": {
+      "total": 12,
+      "ice_months": 7,
+      "mean_ice_score": 0.314
+    },
+    "1850": {
+      "total": 12,
+      "ice_months": 12,
+      "mean_ice_score": 0.479
+    },
+    "1862": {
+      "total": 12,
+      "ice_months": 9,
+      "mean_ice_score": 0.445
+    },
+    "1863": {
+      "total": 12,
+      "ice_months": 11,
+      "mean_ice_score": 0.462
+    },
+    "1864": {
+      "total": 12,
+      "ice_months": 11,
+      "mean_ice_score": 0.475
+    },
+    "1865": {
+      "total": 12,
+      "ice_months": 8,
+      "mean_ice_score": 0.344
+    },
+    "1872": {
+      "total": 12,
+      "ice_months": 10,
+      "mean_ice_score": 0.332
+    },
+    "1873": {
+      "total": 12,
+      "ice_months": 9,
+      "mean_ice_score": 0.388
+    },
+    "1877": {
+      "total": 12,
+      "ice_months": 12,
+      "mean_ice_score": 0.482
+    },
+    "1878": {
+      "total": 12,
+      "ice_months": 11,
+      "mean_ice_score": 0.505
+    },
+    "1883": {
+      "total": 12,
+      "ice_months": 12,
+      "mean_ice_score": 0.527
+    },
+    "1890": {
+      "total": 12,
+      "ice_months": 11,
+      "mean_ice_score": 0.498
+    },
+    "1891": {
+      "total": 12,
+      "ice_months": 6,
+      "mean_ice_score": 0.215
+    },
+    "1893": {
+      "total": 12,
+      "ice_months": 2,
+      "mean_ice_score": 0.149
+    }
+  }
+}

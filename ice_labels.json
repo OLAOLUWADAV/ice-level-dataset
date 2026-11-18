@@ -1,0 +1,1805 @@
+{
+  "version": "1.0",
+  "labels": {
+    "1835-01": {
+      "tile_id": "1835-01",
+      "year": 1835,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1835-02": {
+      "tile_id": "1835-02",
+      "year": 1835,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1835-03": {
+      "tile_id": "1835-03",
+      "year": 1835,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1835-11": {
+      "tile_id": "1835-11",
+      "year": 1835,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1835-12": {
+      "tile_id": "1835-12",
+      "year": 1835,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1836-01": {
+      "tile_id": "1836-01",
+      "year": 1836,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1836-02": {
+      "tile_id": "1836-02",
+      "year": 1836,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1836-03": {
+      "tile_id": "1836-03",
+      "year": 1836,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1836-11": {
+      "tile_id": "1836-11",
+      "year": 1836,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1836-12": {
+      "tile_id": "1836-12",
+      "year": 1836,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1837-01": {
+      "tile_id": "1837-01",
+      "year": 1837,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1837-02": {
+      "tile_id": "1837-02",
+      "year": 1837,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1837-03": {
+      "tile_id": "1837-03",
+      "year": 1837,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1837-11": {
+      "tile_id": "1837-11",
+      "year": 1837,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1837-12": {
+      "tile_id": "1837-12",
+      "year": 1837,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1839-01": {
+      "tile_id": "1839-01",
+      "year": 1839,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1839-02": {
+      "tile_id": "1839-02",
+      "year": 1839,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1839-03": {
+      "tile_id": "1839-03",
+      "year": 1839,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1839-11": {
+      "tile_id": "1839-11",
+      "year": 1839,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1839-12": {
+      "tile_id": "1839-12",
+      "year": 1839,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1845-01": {
+      "tile_id": "1845-01",
+      "year": 1845,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1845-02": {
+      "tile_id": "1845-02",
+      "year": 1845,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1845-03": {
+      "tile_id": "1845-03",
+      "year": 1845,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1845-11": {
+      "tile_id": "1845-11",
+      "year": 1845,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1845-12": {
+      "tile_id": "1845-12",
+      "year": 1845,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1848-01": {
+      "tile_id": "1848-01",
+      "year": 1848,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1848-02": {
+      "tile_id": "1848-02",
+      "year": 1848,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1848-03": {
+      "tile_id": "1848-03",
+      "year": 1848,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1848-11": {
+      "tile_id": "1848-11",
+      "year": 1848,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1848-12": {
+      "tile_id": "1848-12",
+      "year": 1848,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1849-01": {
+      "tile_id": "1849-01",
+      "year": 1849,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1849-02": {
+      "tile_id": "1849-02",
+      "year": 1849,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1849-03": {
+      "tile_id": "1849-03",
+      "year": 1849,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1849-11": {
+      "tile_id": "1849-11",
+      "year": 1849,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1849-12": {
+      "tile_id": "1849-12",
+      "year": 1849,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1850-01": {
+      "tile_id": "1850-01",
+      "year": 1850,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1850-02": {
+      "tile_id": "1850-02",
+      "year": 1850,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1850-03": {
+      "tile_id": "1850-03",
+      "year": 1850,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1850-11": {
+      "tile_id": "1850-11",
+      "year": 1850,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1850-12": {
+      "tile_id": "1850-12",
+      "year": 1850,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1862-01": {
+      "tile_id": "1862-01",
+      "year": 1862,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1862-02": {
+      "tile_id": "1862-02",
+      "year": 1862,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1862-03": {
+      "tile_id": "1862-03",
+      "year": 1862,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1862-11": {
+      "tile_id": "1862-11",
+      "year": 1862,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1862-12": {
+      "tile_id": "1862-12",
+      "year": 1862,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1863-01": {
+      "tile_id": "1863-01",
+      "year": 1863,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1863-02": {
+      "tile_id": "1863-02",
+      "year": 1863,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1863-03": {
+      "tile_id": "1863-03",
+      "year": 1863,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1863-11": {
+      "tile_id": "1863-11",
+      "year": 1863,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1863-12": {
+      "tile_id": "1863-12",
+      "year": 1863,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1864-01": {
+      "tile_id": "1864-01",
+      "year": 1864,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1864-02": {
+      "tile_id": "1864-02",
+      "year": 1864,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1864-03": {
+      "tile_id": "1864-03",
+      "year": 1864,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1864-11": {
+      "tile_id": "1864-11",
+      "year": 1864,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1864-12": {
+      "tile_id": "1864-12",
+      "year": 1864,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1865-01": {
+      "tile_id": "1865-01",
+      "year": 1865,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1865-02": {
+      "tile_id": "1865-02",
+      "year": 1865,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1865-03": {
+      "tile_id": "1865-03",
+      "year": 1865,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1865-11": {
+      "tile_id": "1865-11",
+      "year": 1865,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1865-12": {
+      "tile_id": "1865-12",
+      "year": 1865,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1872-01": {
+      "tile_id": "1872-01",
+      "year": 1872,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1872-02": {
+      "tile_id": "1872-02",
+      "year": 1872,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1872-03": {
+      "tile_id": "1872-03",
+      "year": 1872,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1872-11": {
+      "tile_id": "1872-11",
+      "year": 1872,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1872-12": {
+      "tile_id": "1872-12",
+      "year": 1872,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1873-01": {
+      "tile_id": "1873-01",
+      "year": 1873,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1873-02": {
+      "tile_id": "1873-02",
+      "year": 1873,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1873-03": {
+      "tile_id": "1873-03",
+      "year": 1873,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1873-11": {
+      "tile_id": "1873-11",
+      "year": 1873,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1873-12": {
+      "tile_id": "1873-12",
+      "year": 1873,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1877-01": {
+      "tile_id": "1877-01",
+      "year": 1877,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1877-02": {
+      "tile_id": "1877-02",
+      "year": 1877,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1877-03": {
+      "tile_id": "1877-03",
+      "year": 1877,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1877-11": {
+      "tile_id": "1877-11",
+      "year": 1877,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1877-12": {
+      "tile_id": "1877-12",
+      "year": 1877,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1878-01": {
+      "tile_id": "1878-01",
+      "year": 1878,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1878-02": {
+      "tile_id": "1878-02",
+      "year": 1878,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1878-03": {
+      "tile_id": "1878-03",
+      "year": 1878,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1878-11": {
+      "tile_id": "1878-11",
+      "year": 1878,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1878-12": {
+      "tile_id": "1878-12",
+      "year": 1878,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1883-01": {
+      "tile_id": "1883-01",
+      "year": 1883,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1883-02": {
+      "tile_id": "1883-02",
+      "year": 1883,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1883-03": {
+      "tile_id": "1883-03",
+      "year": 1883,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1883-11": {
+      "tile_id": "1883-11",
+      "year": 1883,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1883-12": {
+      "tile_id": "1883-12",
+      "year": 1883,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1890-01": {
+      "tile_id": "1890-01",
+      "year": 1890,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1890-02": {
+      "tile_id": "1890-02",
+      "year": 1890,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1890-03": {
+      "tile_id": "1890-03",
+      "year": 1890,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1890-11": {
+      "tile_id": "1890-11",
+      "year": 1890,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1890-12": {
+      "tile_id": "1890-12",
+      "year": 1890,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1891-01": {
+      "tile_id": "1891-01",
+      "year": 1891,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1891-02": {
+      "tile_id": "1891-02",
+      "year": 1891,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1891-03": {
+      "tile_id": "1891-03",
+      "year": 1891,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1891-11": {
+      "tile_id": "1891-11",
+      "year": 1891,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1891-12": {
+      "tile_id": "1891-12",
+      "year": 1891,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1893-01": {
+      "tile_id": "1893-01",
+      "year": 1893,
+      "month": 1,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1893-02": {
+      "tile_id": "1893-02",
+      "year": 1893,
+      "month": 2,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1893-03": {
+      "tile_id": "1893-03",
+      "year": 1893,
+      "month": 3,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1893-11": {
+      "tile_id": "1893-11",
+      "year": 1893,
+      "month": 11,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    },
+    "1893-12": {
+      "tile_id": "1893-12",
+      "year": 1893,
+      "month": 12,
+      "labelled": false,
+      "week_styles": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "has_ice": null,
+      "has_jam": null,
+      "ice_free_days": [],
+      "note": "",
+      "labeller": "",
+      "label_date": null
+    }
+  }
+}
